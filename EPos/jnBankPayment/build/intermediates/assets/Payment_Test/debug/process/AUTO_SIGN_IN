@@ -1,0 +1,8 @@
+<!--节点ID为0，代表主界面-->
+<!--签到流程-->
+<process transCode="">
+    <component name="com.jiepos.jnbank.trading" id="1">
+        <!--自动签到，无需跳转结果页-->
+        <condition id="1">0</condition>
+    </component>
+</process>

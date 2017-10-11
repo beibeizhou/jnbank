@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondary_bg"
+        android:gravity="center"
+        android:minHeight="@dimen/height_120"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/BaseText.Tip"
+            android:text="@string/label_trans_amt"/>
+
+        <TextView
+            android:id="@+id/trans_money_show"
+            style="@style/BaseText.Money"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:text="88888"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_divider_size"
+        android:background="@color/common_divider"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_divider_size"
+        android:layout_marginTop="@dimen/margin_40"
+        android:background="@color/common_divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/secondary_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="@dimen/qr_code_size"
+            android:layout_height="@dimen/qr_code_size"
+            android:layout_marginBottom="@dimen/margin_76"
+            android:layout_marginTop="@dimen/margin_76"
+            android:background="@drawable/bg_qr_code"
+            android:padding="@dimen/margin_20">
+
+            <ImageView
+                android:id="@+id/code_show"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/count_down_show"
+                style="@style/BaseText.Tip.Dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/erweima_bg"
+                android:gravity="center"
+                android:text="60"/>
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tip_show"
+            style="@style/BaseText.Tip"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_70"
+            android:gravity="center"
+            android:text="@string/tip_scan_qr_code"/>
+
+
+        <Button
+            style="@style/BaseButton.Positive"
+            android:layout_marginLeft="@dimen/margin_60"
+            android:layout_marginRight="@dimen/margin_60"
+            android:layout_marginTop="@dimen/margin_76"
+            android:onClick="onCancelTradeClick"
+            android:text="@string/label_cancel_trade"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

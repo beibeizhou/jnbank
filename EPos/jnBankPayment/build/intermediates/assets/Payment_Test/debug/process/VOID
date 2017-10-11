@@ -1,0 +1,57 @@
+<!--消费撤销流程-->
+<!--节点ID为0，代表主界面-->
+<process transCode="">
+    <!--输入主管密码界面-->
+    <component name="com.jiepos.jnbank.inputdirectorpwd" id="1">
+        <condition id="1">2</condition>
+    </component>
+    <!--输入原始交易信息界面，凭证号-->
+    <component name="com.jiepos.jnbank.inputorigininfo" id="2">
+        <condition id="1">3</condition>
+    </component>
+    <!--显示交易信息界面-->
+    <component name="com.jiepos.jnbank.showtradeinfo" id="3">
+        <!--需要检卡-->
+        <condition id="3">4</condition>
+        <!--不需要检卡，需要输入密码-->
+        <condition id="2">5</condition>
+        <!--不需要检卡，不需要输入密码-->
+        <condition id="1">6</condition>
+    </component>
+    <!--检卡-->
+    <component name="com.jiepos.jnbank.checkcard" id="4">
+        <!--条件1，不需要输入密码（默认）-->
+        <condition id="1">6</condition>
+        <!--条件2，需要输入密码-->
+        <condition id="2">5</condition>
+        <condition id="99">8</condition>
+    </component>
+    <!--输入密码-->
+    <component name="com.jiepos.jnbank.inputpwd" id="5">
+        <condition id="1">6</condition>
+        <condition id="99">8</condition>
+    </component>
+    <!--联机加载-->
+    <component name="com.jiepos.jnbank.trading" id="6">
+        <condition id="1">7</condition>
+        <condition id="2">8</condition>
+        <condition id="99">8</condition>
+       <condition id="22">22</condition>
+    </component>
+   <!--电子签名-->
+    <component name="com.jiepos.jnbank.esign" id="7">
+        <condition id="1">8</condition>
+        <condition id="99">8</condition>
+       <condition id="22">22</condition>
+    </component>
+    <!--交易结果-->
+    <component name="com.jiepos.jnbank.result" id="8">
+        <condition id="1">0</condition>
+       <condition id="22">22</condition>
+    </component>
+
+    <!--支付组件入口-->
+    <component name="com.jiepos.jnbank.entry" id="22">
+        <condition id="1">0</condition>
+    </component>
+</process>

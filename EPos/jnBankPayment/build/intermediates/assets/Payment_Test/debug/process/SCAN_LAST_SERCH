@@ -1,0 +1,19 @@
+<!--节点ID为0，代表主界面-->
+<!--扫码查询流程-->
+<process transCode="">
+    <!--联机-->
+    <component name="com.jiepos.jnbank.trading" id="1">
+        <condition id="1">2</condition>
+        <condition id="22">22</condition>
+    </component>
+    <!--交易结果-->
+    <component name="com.jiepos.jnbank.result" id="2">
+        <condition id="1">0</condition>
+        <condition id="22">22</condition>
+    </component>
+
+    <!--支付组件入口-->
+    <component name="com.jiepos.jnbank.entry" id="22">
+        <condition id="1">0</condition>
+    </component>
+</process>

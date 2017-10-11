@@ -1,0 +1,100 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--K9屏幕分辨率为720*1280，DPI计算为267.02-->
+    <!--设计图上像素与dp之间的换算比率约为0.5992，即dp=px*0.5992，如果按照此比率计算dp值，实际效果与设计图会有偏差，因此需要调整0.45~0.52（推荐0.45）-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="result_activity_horizontal_margin">11.984dp</dimen><!--20px-->
+    <dimen name="result_activity_vertical_margin">8.388dp</dimen><!--14px-->
+
+    <dimen name="common_title_height">52.2dp</dimen><!--116px-->
+    <dimen name="common_divider_size">1dp</dimen><!--0.45键盘间隔线宽-->
+    <dimen name="common_frame_corner">5dp</dimen>
+    <dimen name="common_dialog_width">270dp</dimen>
+    <dimen name="common_dialog_min_height">162dp</dimen>
+    <dimen name="common_dialog_title_min_height">40dp</dimen>
+<!--
+    <dimen name="common_progress_bar_size">4.356dp></dimen>
+-->
+
+    <dimen name="menu_list_item_min_height">63dp</dimen>
+    <dimen name="result_info_item_height">36dp</dimen>
+    <dimen name="trade_record_item_height">40dp</dimen>
+    <dimen name="trade_record_title_height">45dp</dimen>
+    <dimen name="dialog_lock_width">243dp</dimen>
+    <!--
+        <dimen name="common_title_shadow_height">4.7936dp</dimen>&lt;!&ndash;8px，标题栏阴影高度&ndash;&gt;
+    -->
+
+    <!--涉及图标大小的值以ic_为前缀-->
+    <dimen name="ic_back_width">72dp</dimen><!--160，返回按钮宽度-->
+    <dimen name="ic_result_flag_height">91.0784dp</dimen><!--152，结果页标识高度-->
+
+    <!--数字键盘高度值-->
+    <dimen name="v_number_pad_height">275dp</dimen>
+
+    <!--涉及字体大小的以font_为前缀-->
+    <dimen name="font_title">21.6sp</dimen><!--48px，标题栏字体大小-->
+    <!--通用字体大小-->
+    <dimen name="font_30">13.5sp</dimen>
+    <dimen name="font_32">14.4sp</dimen>
+    <dimen name="font_48">21.6sp</dimen><!--48px-->
+    <dimen name="font_42">18.9sp</dimen><!--42px-->
+    <dimen name="font_36">16.8sp</dimen><!--36px-->
+    <dimen name="font_38">18sp</dimen><!--36px-->
+    <dimen name="font_60">27sp</dimen>
+    <!--涉及间距类的大小以margin_为前缀-->
+    <dimen name="margin_4">1.8dp</dimen><!--4px-->
+    <dimen name="margin_6">3dp</dimen><!--10px-->
+    <dimen name="margin_10">4.5dp</dimen><!--10px-->
+    <dimen name="margin_14">6.3dp</dimen><!--14px-->
+    <dimen name="margin_20">9dp</dimen><!--20px-->
+    <dimen name="margin_30">13.5dp</dimen><!--30px-->
+    <dimen name="margin_36">16.2dp</dimen><!--36px-->
+    <dimen name="margin_40">18dp</dimen><!--40px-->
+    <dimen name="margin_50">22.5dp</dimen><!--50px-->
+    <dimen name="margin_60">27dp</dimen><!--60px-->
+    <dimen name="margin_70">31.5dp</dimen><!--70px-->
+    <dimen name="margin_76">34.2dp</dimen><!--76px-->
+    <dimen name="margin_80">36dp</dimen><!--90px-->
+    <dimen name="margin_90">40.5dp</dimen><!--90px-->
+    <dimen name="margin_100">45dp</dimen><!--100px-->
+    <dimen name="margin_120">54dp</dimen><!--100px-->
+    <dimen name="margin_200">90dp</dimen><!--200px-->
+    <dimen name="margin_300">135dp</dimen><!--300px-->
+    <dimen name="margin_480">216dp</dimen><!--480px-->
+
+
+    <dimen name="height_90">45dp</dimen>
+    <dimen name="height_80">40dp</dimen>
+    <dimen name="height_130">65dp</dimen>
+    <dimen name="height_150">75dp</dimen>
+    <dimen name="height_260">130dp</dimen>
+    <dimen name="height_300">150dp</dimen>
+    <dimen name="height_340">170dp</dimen>
+    <dimen name="height_360">180dp</dimen>
+    <dimen name="height_100">50dp</dimen>
+    <dimen name="height_120">54dp</dimen>
+    <dimen name="height_40">20dp</dimen>
+    <dimen name="cornet_8">4dp</dimen>
+    <dimen name="cornet_16">8dp</dimen>
+
+    <dimen name="qr_code_size">225dp</dimen><!--390-->
+
+    <dimen name="main_icon_size1">15sp</dimen><!--390-->
+    <dimen name="main_icon_size2">16sp</dimen><!--390-->
+    <dimen name="main_icon_size3">14sp</dimen><!--390-->
+
+
+    <dimen name="px_106">53dp</dimen>
+    <dimen name="px_60">30dp</dimen>
+    <dimen name="manage_entry_item_height">59.84dp</dimen>
+    <dimen name="px_26">13dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_201">201dp</dimen>
+</resources>

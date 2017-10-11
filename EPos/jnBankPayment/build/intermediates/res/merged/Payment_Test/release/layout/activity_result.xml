@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/secondary_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_14"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_14"
+        android:background="@drawable/bg_popup"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="152px">
+
+            <!--结果标识图片-->
+            <ImageView
+                android:id="@+id/result_pic_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:src="@drawable/pic_error"/>
+
+            <!--结果文字-->
+            <TextView
+                android:id="@+id/result_text_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_title"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/result_info_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:layout_marginRight="@dimen/margin_40"
+            android:layout_marginTop="@dimen/margin_60"
+            android:background="@drawable/form"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tip_take_out"
+            style="@style/BaseText.Tip.Dark"
+            android:textSize="@dimen/font_42"
+            android:textColor="@color/font_red"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_40"
+            android:text="@string/tip_take_out_card"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/return_btn"
+            style="@style/BaseButton.Positive"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:layout_marginRight="@dimen/margin_40"
+            android:layout_marginTop="@dimen/margin_20"
+            android:onClick="onConfirmClick"
+            android:text="@string/label_back"/>
+    </LinearLayout>
+
+    <include layout="@layout/common_title_layout"/>
+
+
+</LinearLayout>

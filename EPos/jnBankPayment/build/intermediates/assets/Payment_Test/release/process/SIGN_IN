@@ -1,0 +1,17 @@
+<!--节点ID为0，代表主界面-->
+<!--签到流程-->
+<process transCode="">
+    <component name="com.jiepos.jnbank.trading" id="1">
+        <!--自动签到，无需跳转结果页-->
+        <condition id="1">2</condition>
+        <condition id="22">22</condition>
+    </component>
+    <component name="com.jiepos.jnbank.result" id="2">
+        <!--回到主界面-->
+        <condition id="1">0</condition>
+    </component>
+  <!--支付组件入口-->
+    <component name="com.jiepos.jnbank.entry" id="22">
+        <condition id="1">0</condition>
+    </component>
+</process>

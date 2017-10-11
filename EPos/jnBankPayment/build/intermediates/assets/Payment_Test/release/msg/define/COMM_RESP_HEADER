@@ -1,0 +1,15 @@
+<!--属性名称说明-->
+<!--canBeNull：是否可以为空-->
+<!--len：字段长度，var代表变长；varXX代表变长，最大长度为XX-->
+<header>
+    <transCode canBeNull="false" len="var10"/>
+    <termId canBeNull="false" len="var32"/>
+    <pinPadId canBeNull="false" len="var32"/>
+    <serial canBeNull="false" len="6"/>
+    <platSerial canBeNull="true" len="6"/>
+    <transTime canBeNull="false" len="14"/>
+    <platTransTime canBeNull="true" len="14"/>
+    <random canBeNull="false" len="16"/>
+    <respCode canBeNull="false" len="var10"/>
+    <respMsg canBeNull="false" len="var"/>
+</header>

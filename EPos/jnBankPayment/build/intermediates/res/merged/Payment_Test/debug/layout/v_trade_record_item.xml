@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/selectableItemBackground"
+              android:minHeight="@dimen/trade_record_item_height"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/pos_serial_show"
+        style="@style/SerialNumItemStyle.Left"
+        android:text="@string/label_pos_serial"/>
+
+    <TextView
+        android:id="@+id/trans_type_show"
+        style="@style/SerialNumItemStyle"
+        android:gravity="center"
+        android:text="@string/label_trans_type2"/>
+
+    <TextView
+        android:id="@+id/trans_money_show"
+        style="@style/SerialNumItemStyle.Right"
+        android:text="@string/label_trans_amt2"/>
+
+
+</LinearLayout>

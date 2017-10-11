@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/common_title_layout"/>
+    <TextView
+        style="@style/BaseText.Tip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_200"
+        android:textSize="@dimen/font_42"
+        android:gravity="center"
+        android:background="@color/secondary_bg"
+        android:text="@string/title_trade_down"/>
+<com.centerm.jnbank.view.HandwrittenPad
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.5"
+    android:id="@+id/hand_write_pad"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@color/secondary_bg"
+        android:paddingTop="@dimen/margin_100">
+        <Button
+            android:id="@+id/resign_btn"
+            android:layout_width="@dimen/margin_300"
+            style="@style/BaseButton.Negative"
+            android:text="重新签名"/>
+        <View
+            android:layout_width="@dimen/margin_70"
+            android:layout_height="@dimen/margin_40"/>
+        <Button
+            android:id="@+id/confirm_btn"
+            style="@style/BaseButton.Positive"
+            android:layout_width="@dimen/margin_300"
+            android:text="确认"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DividerGridView">
+        <attr name="numColumns" format="integer"/>
+        <attr name="numRows" format="integer"/>
+        <attr name="dividerSize" format="dimension"/>
+        <attr name="verticalDividerSize" format="dimension"/>
+        <attr name="horizontalDividerSize" format="dimension"/>
+        <attr name="horizontalDivider" format="color|reference"/>
+        <attr name="verticalDivider" format="color|reference"/>
+        <attr name="drawEndDivider" format="boolean"/>
+        <attr name="indicatorOn" format="reference"/>
+        <attr name="indicatorOff" format="reference"/>
+        <attr name="indicatorHeight" format="dimension"/>
+        <attr name="indicatorPadding" format="dimension"/>
+        <attr name="paddingTop" format="dimension"/>
+        <attr name="paddingLeft" format="dimension"/>
+        <attr name="paddingRight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+</resources>

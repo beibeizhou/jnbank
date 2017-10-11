@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:focusable="true"
+      android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:text="@string/label_batch_no"/>
+
+                <EditText
+                    android:id="@+id/extxt_batch_no"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:inputType="number"
+                    android:maxLength="6"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:text="@string/label_batch_flow_no"/>
+
+                <EditText
+                    android:id="@+id/extxt_batch_flow_no"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_print_count"/>
+
+                <EditText
+                    android:id="@+id/print_count"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:inputType="number"
+                    android:maxLength="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_max_trans_count"/>
+
+                <EditText
+                    android:id="@+id/max_trans_count"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:inputType="number"
+                    android:maxLength="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_reverse_count"/>
+
+                <EditText
+                    android:id="@+id/reverce_count"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:inputType="number"
+                    android:maxLength="1"/>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_is_receive"
+                    />
+
+                <CheckBox
+                    android:id="@+id/is_receive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:button="@drawable/sel_toggle"
+                    android:checked="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_is_send"/>
+
+                <CheckBox
+                    android:id="@+id/is_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:button="@drawable/sel_toggle"
+                    android:checked="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:visibility="gone"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_print_paper"/>
+
+                <CheckBox
+                    android:id="@+id/print_paper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:button="@drawable/sel_toggle"
+                    android:checked="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_print_code"/>
+
+                <CheckBox
+                    android:id="@+id/print_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:button="@drawable/sel_toggle"
+                    android:checked="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:visibility="gone"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_print_englis"/>
+
+                <CheckBox
+                    android:id="@+id/is_print_english"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:button="@drawable/sel_toggle"
+                    android:checked="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_is_mult"/>
+
+                <CheckBox
+                    android:id="@+id/is_mult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:button="@drawable/sel_toggle"
+                    android:checked="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/label_is_auth_no"/>
+
+                <CheckBox
+                    android:id="@+id/is_auth_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:button="@drawable/sel_toggle"
+                    android:checked="true"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/modify_system"
+                style="@style/ConfigureItemLayoutStyle.Button"
+                android:layout_marginBottom="@dimen/margin_40"
+                android:onClick="systemModify"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

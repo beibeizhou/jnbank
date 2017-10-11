@@ -1,0 +1,8 @@
+<!--按流水查询流程-->
+<!--节点ID为0，代表主界面-->
+<process transCode="">
+    <!--按流水查询-->
+    <component name="com.jiepos.jnbank.serialnumquery" id="2">
+        <condition id="1">0</condition>
+    </component>
+</process>

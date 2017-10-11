@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:text="@string/label_configure_param_tpdu"/>
+
+                <EditText
+                    android:id="@+id/param_tpdu"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:inputType="number"
+                    android:maxLength="10"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_50"
+                    android:text="@string/label_configure_comms_service1"/>
+
+                <EditText
+                    android:id="@+id/extxt_confiure_comms_service"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:digits="0123456789."
+                    android:hint="0.0.0.0"
+                    android:maxLength="15"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:text="@string/label_configure_comms_port1"/>
+
+                <EditText
+                    android:id="@+id/extxt_confiure_comms_port"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:maxLength="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/textViewIP2"
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_50"
+                    android:text="@string/label_configure_comms_service2" />
+
+                <EditText
+                    android:id="@+id/extxt_confiure_comms_service2"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:digits="0123456789."
+                    android:hint="0.0.0.0"
+                    android:maxLength="15" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical">
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:text="@string/label_configure_comms_port2" />
+
+                <EditText
+                    android:id="@+id/extxt_confiure_comms_port2"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:maxLength="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical">
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_50"
+                    android:text="@string/label_configure_param_service" />
+
+                <EditText
+                    android:id="@+id/extxt_confiure_param_service"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:digits="0123456789."
+                    android:hint="0.0.0.0"
+                    android:maxLength="15" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical">
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:text="@string/label_configure_comms_port_param" />
+
+                <EditText
+                    android:id="@+id/extxt_confiure_comms_port_param"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:maxLength="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical">
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:text="@string/label_configure_param_out_time" />
+
+                <EditText
+                    android:id="@+id/out_time"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:inputType="number"
+                    android:maxLength="2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical">
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:layout_marginTop="@dimen/margin_50"
+                    android:text="@string/label_configure_domain_name" />
+
+                <EditText
+                    android:id="@+id/extxt_confiure_domain_name"
+                    style="@style/ConfigureItemTextStyle.Edit"
+                    android:inputType="text"
+                    android:maxLength="40" />
+
+            </LinearLayout>
+            <Button
+                style="@style/ConfigureItemLayoutStyle.Button"
+                android:layout_marginBottom="@dimen/margin_50" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

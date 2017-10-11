@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\btn_home_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\btn_home_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\sel_btn_popup.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\sel_btn_popup.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\btn_popup_cancle_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\btn_popup_cancle_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\icon_home_return_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\icon_home_return_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\anim_feijieka.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\anim_feijieka.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\main_horizontaldivider.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\main_horizontaldivider.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_frame3.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_frame3.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\icon_home_revoke2_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\icon_home_revoke2_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\sel_pwd_indicator.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\sel_pwd_indicator.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\icon_home_other_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\icon_home_other_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\sel_toggle.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\sel_toggle.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\sheng_pay_logo.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\sheng_pay_logo.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_wx_btn.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_wx_btn.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\btn_exit_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\btn_exit_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\sel_edit_btn.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\sel_edit_btn.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_frame4.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_frame4.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\progressbar_circle.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\progressbar_circle.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_qr_code.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_qr_code.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_frame1.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_frame1.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_login_btn.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_login_btn.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\btn_popup_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\btn_popup_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\icon_home_search_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\icon_home_search_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_frame2.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_frame2.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\sel_del_btn.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\sel_del_btn.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\main_verticaldivider.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\main_verticaldivider.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\menu_item_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\menu_item_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\anim_xinpianka.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\anim_xinpianka.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\anim_trading.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\anim_trading.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\sel_back_btn.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\sel_back_btn.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\anim_citiaoka.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\anim_citiaoka.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\icon_home_revoke_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\icon_home_revoke_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\sel_btn_popup_cancel.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\sel_btn_popup_cancel.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_ali_btn.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_ali_btn.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\bg_input_money_btn.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\bg_input_money_btn.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\btn_bg.xml",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable\\btn_bg.xml"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74367650d43bfe26f099466a131827edf299ab11\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    }
+]

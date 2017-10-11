@@ -1,0 +1,6 @@
+<body>
+    <transNo notNull="true"/>
+    <pik notNull="true"/>
+    <mak notNull="true"/>
+    <tek notNull="true"/>
+</body>

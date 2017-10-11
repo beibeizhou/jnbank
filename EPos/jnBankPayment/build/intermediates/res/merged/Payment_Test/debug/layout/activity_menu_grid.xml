@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include    android:id="@+id/title_block"
+        layout="@layout/common_title_layout"/>
+    <com.centerm.jnbank.view.GridViewPager
+        android:id="@+id/menu_view"
+        style="@style/MenuGrid"
+        />
+    <!--android:background="@drawable/home_bg"-->
+</LinearLayout>

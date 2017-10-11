@@ -1,0 +1,165 @@
+<!--textResName（菜单标题对应的资源文件名称），iconResName(菜单图标对应的资源文件名称)--><!--viewStructure（视图结构，九宫格或列表形式），除了根节点以外，其它任意一个父节点，都必须指定viewStructure属性，否则解析器会报错--><!--process（流程文件名称，仅对交易节点生效，如果不声明该属性，则默认使用节点名称，）--><!---->
+
+<Root>
+    <SALE chnTag="消费" textResName="menu_bank" />
+
+    <SCAN_PAY_SFT chnTag="扫码支付" />
+
+    <!--
+        <SCAN_PAY_ALI chnTag="支付宝" iconResName="icon_home_zhifubao" />-->
+
+
+    <!--
+        <XIAOFEI chnTag="消费" iconResName="icon_menu_xf" />
+    -->
+    <SALE chnTag="消费" iconResName="icon_menu_xf" textResName="menu_bank" />
+    <VOID chnTag="撤销" iconResName="icon_menu_chex" />
+    <REFUND chnTag="退货" iconResName="icon_menu_th" />
+    <!--<YUSHOUQUAN chnTag="预授权" iconResName="icon_menu_yusq" />-->
+    <AUTH chnTag="预授权" iconResName="icon_menu_yusq" textResName="menu_auth" viewStructure="list">
+        <AUTH chnTag="预授权" iconResName="list_icon_ysq" textResName="menu_auth" />
+        <AUTH_COMPLETE chnTag="预授权完成(请求)" iconResName="list_icon_ysqwc"
+            textResName="menu_auth_complete" />
+        <CANCEL chnTag="预授权撤销" iconResName="list_icon_ysqcx" textResName="menu_cancel" />
+        <COMPLETE_VOID chnTag="预授权完成撤销" iconResName="list_icon_ysqwccx"
+            textResName="menu_complete_void" />
+    </AUTH>
+
+    <FENQI chnTag="pos分期" iconResName="icon_menu_posfq" />
+    <!-- <JIAOYICHAXUN chnTag="交易查询" iconResName="icon_menu_jiaoycx" />-->
+    <!--交易查询-->
+    <QUERY chnTag="交易查询" iconResName="icon_menu_jiaoycx" />
+    <!--<DAYIN chnTag="打印" iconResName="icon_menu_dy" />-->
+    <!--打印-->
+    <PRINT chnTag="打印" iconResName="icon_menu_dy" textResName="menu_print" viewStructure="list">
+        <PRINT_LAST chnTag="打印最后一笔" iconResName="icon_null" textResName="menu_print_last" />
+        <PRINT_ANY chnTag="打印任意一笔" iconResName="icon_null" textResName="menu_print_any" />
+        <PRINT_DETAIL chnTag="打印交易明细" iconResName="icon_null"
+            textResName="menu_print_detail" />
+        <PRINT_SUMMARY chnTag="打印交易汇总" iconResName="icon_null"
+            textResName="menu_print_summary" />
+        <PRINT_BATCH_SUMMARY chnTag="打印上批总计" iconResName="icon_null"
+            textResName="menu_print_batch_summary" />
+        <!--<SCAN_LAST_SERCH chnTag="扫码末笔支付查询" iconResName="icon_home_revoke2_bg"
+            textResName="menu_scan_last" />-->
+    </PRINT>
+    <!--<GUANLI chnTag="管理" iconResName="icon_menu_gl" />-->
+    <!--管理-->
+    <MANAGEMENT chnTag="管理" iconResName="icon_menu_gl" textResName="menu_manage"
+        viewStructure="list">
+        <!--签到入口-->
+        <!--<SIGN_IN chnTag="签到" iconResName="manage_icon_sign" viewStructure="list">
+            <POS_SIGN_IN chnTag="POS签到" iconResName="icon_menu_posqd" process="SIGN_IN" />
+            <OPER_SIGN_IN chnTag="操作员签到" iconResName="icon_menu_czyqd" />
+        </SIGN_IN>-->
+        <POS_SIGN_IN chnTag="签到" iconResName="manage_icon_sign" process="SIGN_IN" />
+        <SIGN_OUT chnTag="签退" iconResName="manage_icon_signout" />
+
+        <!--    <QUERY chnTag="交易查询" viewStructure="list"/>
+           <QUERY_DETAIL chnTag="查询交易明细"/>
+              <QUERY_SUMMARY chnTag="查询交易汇总"/>
+              <QUERY_BY_SERIAL chnTag="按交易流水查询" process="SERAIL_NUM_QUERY"/>
+          </QUERY>-->
+        <SETTLEMENT chnTag="结算" iconResName="manage_icon_clearing" />
+        <LOCK chnTag="锁定终端" iconResName="manage_icon_locking" />
+
+    </MANAGEMENT>
+    <!--其它业务-->
+    <OTHER chnTag="其它" iconResName="icon_menu_qit" textResName="menu_other" viewStructure="list">
+        <LOAD_PARAM chnTag="非接业务参数下载" iconResName="icon_null" process="LOAD_PARAM" />
+        <DOWNLOAD_CAPK chnTag="IC卡公钥下载" iconResName="icon_null" process="DOWNLOAD_PARAMS" />
+        <DOWNLOAD_AID chnTag="IC卡参数下载" iconResName="icon_null" process="DOWNLOAD_PARAMS" />
+        <BALANCE chnTag="余额查询" iconResName="icon_null" textResName="menu_balance" />
+    </OTHER>
+    <!-- <SALE_OTHER chnTag="主管管理" textResName="menu_sale" viewStructure="list">
+         <VOID chnTag="撤销" iconResName="icon_home_revoke_bg" textResName="menu_void" />
+         <REFUND chnTag="退货" iconResName="icon_home_return_bg" textResName="menu_refund" />
+         &lt;!&ndash;预授权&ndash;&gt;
+         <AUTH chnTag="预授权" iconResName="icon_home_authorize_bg" textResName="menu_auth"
+             viewStructure="list">
+             <AUTH chnTag="预授权" iconResName="icon_home_authorize_bg" textResName="menu_auth" />
+             <AUTH_COMPLETE chnTag="预授权完成(请求)" iconResName="icon_home_request_bg"
+                 textResName="menu_auth_complete" />
+             <CANCEL chnTag="预授权撤销" iconResName="icon_home_revoke2_bg" textResName="menu_cancel" />
+             <COMPLETE_VOID chnTag="预授权完成撤销" iconResName="icon_home_revoke2_bg"
+                 textResName="menu_complete_void" />
+         </AUTH>
+         <BALANCE chnTag="余额查询" iconResName="icon_home_search_bg" textResName="menu_balance" />
+         <OTHER chnTag="其它" iconResName="icon_home_other_bg" textResName="menu_other"
+             viewStructure="list">
+             <SALE_BY_INSERT chnTag="插卡消费" iconResName="icon_menu_ckxf" process="SALE_NO_OTHER" />
+             <QUICK_SALE_NEED_PASWD chnTag="消费凭密" iconResName="icon_menu_sfpm"
+                 process="SALE_NO_OTHER" />
+             <LOAD_PARAM chnTag="终端参数下载" iconResName="icon_menu_xz" process="LOAD_PARAM" />
+         </OTHER>
+     </SALE_OTHER>-->
+    <!--
+        <SCAN_PAY_ALI chnTag="支付宝" iconResName="icon_home_zhifubao" />&ndash;&gt;
+        <DISCOUNT_INTERGRAL chnTag="测试" iconResName="icon_home_test" />-->
+    <!--微信扫码其它业务-->
+    <SCAN_WEI_OTHER chnTag="主管管理" textResName="menu_weixin" viewStructure="list">
+        <SCAN_CANCEL chnTag="扫码撤销" iconResName="icon_home_revoke_bg"
+            textResName="menu_scan_cancel" />
+        <SCAN_REFUND_W chnTag="扫码退货" iconResName="icon_home_return_bg"
+            textResName="menu_scan_refund" />
+        <SCAN_LAST_SERCH chnTag="扫码末笔支付查询" iconResName="icon_home_revoke2_bg"
+            textResName="menu_scan_last" />
+    </SCAN_WEI_OTHER>
+    <!--支付宝扫码其它业务-->
+    <SCAN_ALI_OTHER chnTag="主管管理" textResName="menu_zhifubao" viewStructure="list">
+        <SCAN_CANCEL chnTag="扫码撤销" iconResName="icon_home_revoke_bg"
+            textResName="menu_scan_cancel" />
+        <SCAN_REFUND_Z chnTag="扫码退货" iconResName="icon_home_return_bg"
+            textResName="menu_scan_refund" />
+        <SCAN_LAST_SERCH chnTag="扫码末笔支付查询" iconResName="icon_home_revoke2_bg"
+            textResName="menu_scan_last" />
+    </SCAN_ALI_OTHER>
+    <!--主管管理-->
+    <SUPER_MANAGEMENT chnTag="主管管理" viewStructure="list">
+        <COMMUNICATION_SETTING chnTag="通讯参数设置" iconResName="icon_menu_txcssz"
+            process="CONFIGURE_COMMS" />
+        <MODIFY_PASWD chnTag="主管密码修改" iconResName="icon_admin_resetpassword" process="CHANGE_PWD" />
+        <QEURY_OPER chnTag="操作员管理" iconResName="icon_admin_add" process="OPERATOR_QUERY" />
+        <CLEAR_TRADE_SERIAL chnTag="清除交易流水" iconResName="icon_admin_clearlist" />
+        <TRANS_OTHER chnTag="其他设置" iconResName="icon_admin_others" />
+    </SUPER_MANAGEMENT>
+    <!--系统管理-->
+    <SYS_MANAGEMENT chnTag="系统管理" viewStructure="list">
+        <!-- <MERCHANTS_SETTINGS chnTag="商户参数设置" iconResName="icon_menu_shcssz"
+             process="MERCHANTS_SETTINGS" viewStructure="list">
+             &lt;!&ndash;<INIT_TERMINAL chnTag="机具初始化" iconResName="icon_menu_xz" />&ndash;&gt;
+             <MERCHANTS_SETTINGS chnTag="商户参数" iconResName="icon_menu_shcssz"
+                 process="MERCHANTS_SETTINGS" />
+         </MERCHANTS_SETTINGS>-->
+        <MERCHANTS_SETTINGS chnTag="商户参数设置" iconResName="icon_menu_shcssz"
+            process="MERCHANTS_SETTINGS" />
+        <SYSTEM_SETTINGS chnTag="系统参数设置" iconResName="icon_menu_xtcssz" process="SYSTEM_SETTINGS" />
+        <TRANS_SETTINGS chnTag="交易功能设置" iconResName="icon_menu_jygnsz" textResName="menu_trans"
+            viewStructure="list">
+            <SETTLE_SET chnTag="交易参数" iconResName="trade_icon_parameter" />
+            <TRANS_SWITCH chnTag="交易控制" iconResName="trade_icon_control" />
+            <TRANS_PSW chnTag="交易输密设置" iconResName="trade_icon_password" />
+
+
+            <!-- <TRANS_CARD chnTag="交易刷卡" iconResName="icon_menu_xtcssz" />
+             <SCAN_PARAM chnTag="扫码参数" iconResName="icon_menu_xtcssz" />
+             <TRANS_SIGN chnTag="电子签名" iconResName="icon_menu_xtcssz" />
+             <VISA_FREE_PARAM chnTag="双免参数" iconResName="icon_menu_xtcssz" />
+             <TRANS_OTHER chnTag="其他设置" iconResName="icon_menu_xtcssz" />-->
+        </TRANS_SETTINGS>
+        <COMMUNICATION_SETTING chnTag="通讯设置" iconResName="icon_menu_txcssz"
+            process="CONFIGURE_COMMS" />
+        <MODIFY_PASWD chnTag="主管密码修改" iconResName="icon_admin_resetpassword" process="CHANGE_PWD" />
+        <OTHER chnTag="其它功能设置" iconResName="icon_admin_others" viewStructure="list">
+            <CLEAR_TRADE_SERIAL chnTag="清除交易流水" iconResName="icon_admin_clearlist" />
+            <DOWNLOAD chnTag="下载功能" iconResName="other_icon_download" textResName="menu_download"
+                viewStructure="list">
+                <DOWNLOAD_CAPK chnTag="IC卡公钥下载" iconResName="icon_null" process="DOWNLOAD_PARAMS" />
+                <DOWNLOAD_AID chnTag="IC卡参数下载" iconResName="icon_null" process="DOWNLOAD_PARAMS" />
+                <LOAD_PARAM chnTag="非接业务参数下载" iconResName="icon_null" process="LOAD_PARAM" />
+            </DOWNLOAD>
+        </OTHER>
+
+    </SYS_MANAGEMENT>
+
+</Root>

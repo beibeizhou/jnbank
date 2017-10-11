@@ -1,0 +1,37 @@
+<!--节点ID为0，代表主界面-->
+<!--扫码支付消费流程-->
+<process transCode="">
+    <!--输入金额-->
+    <component name="com.jiepos.jnbank.inputmoney" id="1">
+        <condition id="1">2</condition>
+        <condition id="2">3</condition>
+    </component>
+    <!--扫码-正扫-->
+    <component name="com.jiepos.jnbank.scan" id="2">
+        <condition id="1">4</condition>
+        <condition id="99">6</condition>
+    </component>
+    <!--扫码-反扫-->
+    <component name="com.jiepos.jnbank.showCode" id="3">
+        <condition id="0">0</condition>
+        <condition id="1">6</condition>
+        <condition id="99">6</condition>
+    </component>
+    <!--联机加载-->
+    <component name="com.jiepos.jnbank.trading" id="4">
+        <condition id="1">6</condition>
+        <condition id="2">6</condition>
+        <condition id="99">6</condition>
+        <condition id="22">22</condition>
+    </component>
+    <!--交易结果-->
+    <component name="com.jiepos.jnbank.result" id="6">
+        <condition id="1">0</condition>
+        <condition id="22">22</condition>
+    </component>
+
+    <!--支付组件入口-->
+    <component name="com.jiepos.jnbank.entry" id="22">
+        <condition id="1">0</condition>
+    </component>
+</process>

@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/common_title_layout"/>
+
+    <LinearLayout
+        android:id="@+id/trans_money_block"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/result_info_item_height"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/BaseText.Tip"
+            android:text="@string/label_trans_amt"/>
+
+        <TextView
+            android:id="@+id/amount_show"
+            style="@style/BaseText.Tip.Dark"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/page_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/qr_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="将二维码放入框内即可自动扫描"
+            android:textSize="@dimen/font_30" />
+
+
+        <Button
+            android:id="@+id/button_time_cancel"
+            android:layout_width="350px"
+            android:layout_height="80px"
+            android:layout_marginTop="50px"
+            android:onClick="checkExit"
+            android:text="取消交易"
+            android:textSize="28px"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/page_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <ProgressBar
+            android:id="@+id/my_progress"
+            android:layout_gravity="center_horizontal"
+            style="@style/mProgress_circle"
+            android:indeterminateDuration="1000"
+            android:layout_width="wrap_content"
+            android:max="60"
+            android:layout_height="wrap_content" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/trading_logo_show"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:src="@drawable/anim_trading"/>-->
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/wx_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="正在获取二维码"
+            />
+
+    </LinearLayout>
+</LinearLayout>

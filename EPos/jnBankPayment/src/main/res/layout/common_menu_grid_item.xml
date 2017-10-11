@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/menu_icon_show"
+            android:layout_gravity="center_horizontal"
+            style="@style/MenuGridItemIcon" />
+
+        <TextView
+            android:id="@+id/menu_text_show"
+            style="@style/MenuGridItemText2"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/main_icon_size1"
+            android:lines="2" />
+
+    </LinearLayout>
+
+</RelativeLayout>

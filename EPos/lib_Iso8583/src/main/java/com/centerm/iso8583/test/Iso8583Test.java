@@ -1,0 +1,89 @@
+package com.centerm.iso8583.test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.centerm.iso8583.ISOConfig;
+import com.centerm.iso8583.IsoMessage;
+import com.centerm.iso8583.MessageFactory;
+import com.centerm.iso8583.bean.FormatInfo;
+import com.centerm.iso8583.bean.FormatInfoFactory;
+import com.centerm.iso8583.enums.IsoMessageMode;
+import com.centerm.iso8583.inf.IExchange;
+import com.centerm.iso8583.parse.IsoConfigParser;
+import com.centerm.iso8583.util.BCDUtil;
+import com.centerm.iso8583.util.DataConverter;
+import com.centerm.iso8583.util.ISOString;
+
+public class Iso8583Test {
+	public static void main(String[] args) throws Exception {
+		Map<String,String> map = new HashMap<String,String>();
+		map.put("headerdata", "6006210000600100000000");		
+		map.put("pri_acct_no",		"6222021402023183095");
+		map.put("amt_trans", 			"000000000010");
+		map.put("sys_trace_audit_num", 		"047618");
+		map.put("date_settlmt", 		"0403");
+		map.put("retrivl_ref_num", 		"000000160951");
+		map.put("card_accptr_termnl_id", 		"80030001");
+		map.put("card_accptr_id", 		"309610148168003");
+		map.put("print_items", 		"ff000c5553444bb2e2cad4c9ccbba7ff0104cffbb7d1ff020101ff030b3031303330303030202020ff040b3033313030303030202020ff05023010ff060720151123142744ff0706303038313933ff0903435550ff0a03313536ff1e0a50424f43204445424954ff310a50424f43204445424954ff2208a000000333010101");
+		map.put("reserved", 		"07047616000001800");
+		map.put("sign_data", 		"00000100000000f000000060000000070800031cff02ff02ff02ff02ff02f5b4e4e2829683bd48354c12346b0c8792ff022c145ca0152178ff026d413dad8d57e370c0ff0224114fb6b940e12708ff02f278715e7cf0ab50cf5b1587fbcd11a3c779d4b33c1c21d1da6d2aa755199bc3ac94d16686d74a1ac425b85bc7e6d482b4b4139e6626ed8aeb3ffc0760ff02385f405f69b390fa4e0262dc67c159c544adc6c3d56f56305909c189bbe97a11963a6b1d82c378ff025543c05e0a0dca7a5c666e4400e5562da0e5eb076b675b818d7dd1a840ff02ff02ff02");
+		
+		map.put("addtnl_data_private", "hello你好");
+		
+		System.out.println("length:XXX  "+ ISOString.length(map.get("addtnl_data_private")));
+		IsoConfigParser parser = new IsoConfigParser();
+		FormatInfoFactory formatInfoFactory = parser.parseFromXMLConfigFile("mct.xml");		
+
+		//获取组解包控制对象
+		ISOConfig isoConfig = new ISOConfig();
+		//isoConfig.setCharset("utf-8");
+		FormatInfo formatInfo = formatInfoFactory.getFormatInfo("102401",IsoMessageMode.PACK);
+		long begin = System.currentTimeMillis();
+		IsoMessage message = MessageFactory.getIso8583Message().packTrns(map, formatInfo);
+		long end = System.currentTimeMillis();
+		System.out.println("组包耗"+BCDUtil.bcd2Str(message.getAllMessageByteData()));
+		
+		//获取mac block信息
+		//String macInfo = message.getMacBlock(formatInfoFactory.getMabInfo("002310",IsoMessageMode.PACK));
+		//System.out.println("macInfo = " + formatInfoFactory.getMabInfo("002310",IsoMessageMode.PACK));		
+		//System.out.println(DataConverter.bytesToHexString(message.getAllMessageByteData()));	
+		formatInfo = formatInfoFactory.getFormatInfo("002401",IsoMessageMode.UNPACK);		
+		begin = System.currentTimeMillis();
+		
+		/*String a ="2E01303030303939393931313134202020393939393131333520202000000000303030303030303000303030303030323030F23844C1B8E09810000000000000" +
+				"00413139363232323032313430323032333138333039353030303030303030303030303030303030313130313931323238333830303036303331323238333831" +
+				"303139303030303032313030303630383939393931313134303839393939313133353337363232323032313430323032333138333039353D3439313231323033" +
+				"3330393939313632303039373939363232323032313430323032333138333039353D313536313536303030303030303030303030313030333333303939393031" +
+				"303030303034393132303D3030303030303030303030303D3030303030303030303030303D303030303030303031323238333830303030303138303033303030" +
+				"3233303936313031343831363830303368656C6C6F2020202020202020202020202020202020202020202020202020202020202020202020313536E4555C83EE" +
+				"5B80CE32363030303030303030303030303030303230303030303035303030333030303030303030303030313630313030303030302020303030363033353532" +
+				"3230454136";
+		String a="2E01303030303939393931313134202020393939393131333520202000000000303030303030303000303030303030323030F23A4481B8E08010000000400000" +
+				"00413139363232323032313430323032333138333039353030303030303030303030303030303030313130323131303531353230303036343231303531353231" +
+				"3032313130323130303030303231303030383939393931313134303839393939313133353337363232323032313430323032333138333039353D343931323132" +
+				"30333330393939313632303039373939363232323032313430323032333138333039353D31353631353630303030303030303030303031303033333330393939" +
+				"3031303030303034393132303D3030303030303030303030303D3030303030303030303030303D30303030303030303130353135323030303030313830303330" +
+				"30303233303936313031343831363830303368656C6C6F2020202020202020202020202020202020202020202020202020202020202020202020313536303230" +
+				"30303030303530303033303030303030303030303032303030303036333931303231313034343139303030393939393131313430303039393939313133353031" +
+				"36303130303030303020203030303634323641394432394344";*/
+		//String a = "60000006216001000000000830002000000AC000100023043030303030303135373936373030383030333030303233303936313031343831363830303300100700230100";
+		
+		//byte[] b = BCDUtil.str2Bcd(a);
+		IExchange isoMessage = MessageFactory.getIso8583Message();
+//		Map<String,Object> messageInfo = isoMessage.unPackTrns(b, formatInfo);
+		System.out.println(isoMessage.getFieldMap());
+		end = System.currentTimeMillis();
+		//System.out.println("解包耗时  = " + (end - begin) + "ms" );
+		//String[] mapContent = messageInfo.toString().split(",");
+		/*for (int i = 0; i < mapContent.length; i++) {
+			System.out.println(mapContent[i]);
+		}*/
+		
+		//String verInfo = MessageFactory.getSystemInfo().getVerInfo();
+		//System.out.println("verInfo = " + verInfo);
+		
+	}
+
+}

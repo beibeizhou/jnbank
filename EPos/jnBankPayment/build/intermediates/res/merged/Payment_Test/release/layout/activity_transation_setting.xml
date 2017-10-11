@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <include layout="@layout/common_title_layout" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/swith_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_sale_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/sale_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_void_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/void_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_balance_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/balance_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_refund_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/refund_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_auth_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/auth_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="预授权完成"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/complete_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_auth_void_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/auth_void_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_complete_void_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/complete_void_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:visibility="gone"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_sft_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/sft_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_wei_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/wei_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_ali_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/ali_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_50"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/ConfigureItemTextStyle"
+                    android:text="@string/menu_card_swith"/>
+
+                <CheckBox
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:id="@+id/card_swith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/sel_toggle"/>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/modify_trans2"
+                android:onClick="modifyParam2"
+                android:layout_marginBottom="@dimen/margin_40"
+                style="@style/ConfigureItemLayoutStyle.Button"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/psw_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_void_psw"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/void_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_auth_void_psw"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/cancle_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_cancel_psw"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/complete_void_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_complete_psw"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/complete_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_viod_card"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/viod_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_complete_card"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/complete_void_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/settle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_auto_sign_out"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/auto_sign_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_tip_detail"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/tip_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_print_void_detail"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/print_void_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_tip_fail"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/print_fail_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/scan_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_scan_query_count"/>
+
+            <EditText
+                android:id="@+id/scan_query_count"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:inputType="number"
+                android:maxLength="2"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_scan_wait_time"/>
+
+            <EditText
+                android:id="@+id/scan_wait_time"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:inputType="number"
+                android:maxLength="2"
+                android:enabled="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/other_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_max_refund_amt"/>
+
+            <EditText
+                android:id="@+id/max_refund_amt"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:inputType="number"
+                android:text="0.00"
+                android:digits="1234567890"
+                android:maxLength="9"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_is_show_logo"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/is_show_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_print_head"/>
+
+            <EditText
+                android:id="@+id/define_head_et"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:inputType="text"
+                android:maxLength="16"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_refund_admin_psw"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/refund_admin_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_auth_hand_card"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/auth_hand_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_is_feijie"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/is_feijie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_is_trade_psw"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/is_trade_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_is_first_feijie"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/is_first_feijie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/sale_is_query_integral"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/is_query_integral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/sale_is_query_discount"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/is_query_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sign_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_sign"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/is_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_comfirm_sign"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/tip_comfirm_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_sign_out_time"/>
+
+            <EditText
+                android:id="@+id/sign_out_time"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:inputType="number"
+                android:digits="1234567890"
+                android:maxLength="3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_reload_sign_count"/>
+
+            <EditText
+                android:id="@+id/reload_sign_count"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:inputType="number"
+                android:digits="123456789"
+                android:maxLength="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_max_sign_count"/>
+
+            <EditText
+                android:id="@+id/max_sign_count"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:inputType="number"
+                android:digits="1234567890"
+                android:maxLength="3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_max_resign"/>
+
+            <EditText
+                android:id="@+id/max_resign"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:inputType="number"
+                android:digits="123456789"
+                android:maxLength="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/menu_upload_time"/>
+            <RadioGroup
+                android:id="@+id/send_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/forwad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="打印前"/>
+                <RadioButton
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="打印后"
+                    android:checked="true"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/visa_free_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_sign_limit"/>
+
+            <EditText
+                android:id="@+id/sign_limit_et"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:enabled="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_psw_limit"/>
+
+            <EditText
+                android:id="@+id/psw_limit_et"
+                style="@style/ConfigureItemTextStyle.Edit"
+                android:enabled="false"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_qps_swich"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/qps_swith_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_bin_a"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/bin_a_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_bin_b"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/bin_b_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_cdcvm"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/cdcvm_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_50"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/ConfigureItemTextStyle"
+                android:text="@string/label_sign"/>
+
+            <CheckBox
+                android:layout_marginRight="@dimen/margin_60"
+                android:id="@+id/sign_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/sel_toggle"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/modify_trans"
+        android:onClick="modifyParam"
+        style="@style/ConfigureItemLayoutStyle.Button"/>
+</LinearLayout>

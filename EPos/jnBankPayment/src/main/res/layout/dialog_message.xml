@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DialogLayout.Message">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic_jingao" />
+
+        <TextView
+            android:id="@+id/txtvw_message"
+            style="@style/MessageDialogTextStyle" />
+    </FrameLayout>
+
+    <LinearLayout
+        style="@style/MessageDialogLayoutStyle.Button"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btn_message_sure"
+            style="@style/MessageDialogButtonStyle.Sure" />
+
+        <View
+            android:layout_width="10dp"
+            android:background="@android:color/transparent"
+            android:layout_height="2dp" />
+
+        <Button
+            android:id="@+id/btn_message_cancel"
+            style="@style/MessageDialogButtonStyle.Cancel" />
+    </LinearLayout>
+</LinearLayout>

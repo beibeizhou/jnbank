@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/font_white"
+    android:orientation="vertical">
+
+    <!--    <android.support.v7.widget.CardView style="@style/FormListStyle">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp">
+
+
+            </android.support.v7.widget.CardView>
+
+            <ListView
+                android:id="@+id/menu_view"
+                style="@style/MenuList"
+                android:divider="#d0c0b8"
+                android:dividerHeight="1dp"/>
+        </android.support.v7.widget.CardView>-->
+
+    <include
+        android:id="@+id/title_block"
+        layout="@layout/common_title_layout" />
+
+    <ImageView
+        android:id="@+id/top_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/manager_bg"/>
+
+    <ListView
+        android:id="@+id/menu_view"
+        style="@style/MenuList"
+        android:layout_margin="@dimen/margin_20" />
+
+
+    <include layout="@layout/view_line2" />
+
+
+</LinearLayout>

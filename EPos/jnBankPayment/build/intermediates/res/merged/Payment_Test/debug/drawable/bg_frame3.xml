@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:bottomLeftRadius="@dimen/common_frame_corner"/>
+<!--    <stroke android:width="@dimen/common_divider_size"
+        />-->
+    <solid android:color="@color/result_item_name_bg"/>
+
+</shape>

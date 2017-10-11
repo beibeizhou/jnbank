@@ -1,0 +1,654 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:2:1-427:12
+	package
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:3:11-39
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:2:11-57
+	xmlns:android
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:4:11-69
+	android:versionCode
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CLOUDPOS_PRINTER
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.LAKALA.ENABLE_HOME
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:12:22-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:31:5-83
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:31:22-81
+uses-permission#android.permission.STATUS_BAR
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:33:5-34:59
+	tools:ignore
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:34:22-57
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:33:22-66
+uses-permission#android.permission.VIBRATE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:36:5-66
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:36:22-63
+uses-permission#android.permission.CAMERA
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:37:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:38:5-69
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:38:22-66
+uses-permission#android.permission.HARDWARE_TEST
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:39:5-72
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:39:22-69
+uses-feature#android.hardware.camera
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:40:5-60
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:40:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:41:5-70
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:41:19-67
+uses-permission#android.permission.CPAYSDK_PINPAD_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:44:5-79
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:44:22-77
+uses-permission#android.permission.CPAYSDK_SWIPE_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:46:5-78
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:46:22-76
+uses-permission#android.permission.CPAYSDK_PBOC_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:48:5-77
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:48:22-75
+uses-permission#android.permission.CPAYSDK_NEW_PBOC_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:50:22-79
+uses-permission#android.permission.CPAYSDK_IC_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:52:5-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:52:22-73
+uses-permission#android.permission.CPAYSDK_RF_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:54:5-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:54:22-73
+uses-permission#android.permission.CPAYSDK_PRINTER_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:56:5-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:56:22-78
+uses-permission#android.permission.CPAYSDK_SYSTEM_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:58:5-79
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:58:22-77
+uses-permission#android.permission.CPAYSDK_CASHBOX_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:60:5-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:60:22-78
+uses-permission#android.permission.CPAYSDK_CUSTOMER_DISPLAY_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:62:5-89
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:62:22-87
+uses-permission#android.permission.CPAYSDK_M1_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:64:5-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:64:22-73
+uses-permission#android.permission.CPAYSDK_MODEM_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:66:5-78
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:66:22-76
+uses-permission#android.permission.CPAYSDK_PSAM_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:68:5-77
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:68:22-75
+uses-permission#android.permission.CPAYSDK_SERIAL_PORT_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:70:5-84
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:70:22-82
+uses-permission#android.permission.CPAYSDK_OLED_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:72:5-77
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:72:22-75
+uses-permission#android.permission.CPAYSDK_ID_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:74:5-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:74:22-73
+uses-permission#android.permission.CPAYSDK_LCD_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:76:5-76
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:76:22-74
+uses-permission#android.permission.CPAYSDK_SAFE_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:78:5-77
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:78:22-75
+uses-permission#android.permission.CPAYSDK_MEM4442_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:80:5-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:80:22-78
+uses-permission#android.permission.CPAYSDK_MEM102_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:82:5-79
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:82:22-77
+uses-permission#android.permission.CPAYSDK_MEM1608_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:84:5-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:84:22-78
+uses-permission#android.permission.CPAYSDK_MEMAT24C02_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:86:5-83
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:86:22-81
+uses-permission#android.permission.CPAYSDK_VERSION_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:88:5-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:88:22-78
+uses-permission#android.permission.CPAYSDK_VOICE_MODULE
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:90:5-78
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:90:22-76
+uses-permission#android.permission.CPAYSDK_SILENT_INSTALL
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:92:5-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:92:22-78
+uses-permission#android.permission.CPAYSDK_SILENT_UNINSTALL
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:94:5-82
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:94:22-80
+application
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:96:5-372:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\0bc93e9f4677e30b0dd6e64c5b4a0f4fb27f63ee\output\AndroidManifest.xml:9:5-20
+MERGED from [EPos:lib_Iso8583:unspecified] F:\xiangmubeifen\0929zao\EPos\lib_Iso8583\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\Administrator\.android\build-cache\73b9c7cfb95123901e209ae939b5f196d305d0b0\output\AndroidManifest.xml:26:5-20
+MERGED from [org.xutils:xutils:3.3.34] C:\Users\Administrator\.android\build-cache\06b9435788a73d020cfee10fa1a01025931fa326\output\AndroidManifest.xml:12:5-20
+MERGED from [com.jaeger.statusbaruitl:library:1.0.0] C:\Users\Administrator\.android\build-cache\b91f1d5abeccdf4904d789e81ea8cdbc4a543ed9\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Administrator\.android\build-cache\74367650d43bfe26f099466a131827edf299ab11\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Administrator\.android\build-cache\056daafca64bc4a638ce43d35eb7469716a1b41a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Administrator\.android\build-cache\d4f100d3627de496bc060fdfaf2a186d65bad6a6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Administrator\.android\build-cache\ed90b56a64853a1ad9b17f23c52653bbaae3282b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Administrator\.android\build-cache\39923d19849e4965523688289dbd8c08170b8f79\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Administrator\.android\build-cache\99d8b934c74749b9873b1a3aec1eb37a659aa9e5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Administrator\.android\build-cache\60f02ec42173d69e6286cbd8eabd4bca3acc03de\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Administrator\.android\build-cache\bf214869860d7b888b8880b9fa53a3e1ffed8648\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Administrator\.android\build-cache\1d6e1feaeac45c1a1ef7b6824509ce6044166811\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:100:9-41
+		REJECTED from [EPos:lib_Iso8583:unspecified] F:\xiangmubeifen\0929zao\EPos\lib_Iso8583\build\intermediates\bundles\default\AndroidManifest.xml:13:9-41
+		REJECTED from [com.jaeger.statusbaruitl:library:1.0.0] C:\Users\Administrator\.android\build-cache\b91f1d5abeccdf4904d789e81ea8cdbc4a543ed9\output\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:101:9-35
+	android:allowBackup
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:98:9-35
+	android:icon
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:99:9-36
+	android:theme
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:102:9-40
+	tools:replace
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:103:9-65
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:97:9-40
+receiver#com.centerm.jnbank.receiver.ClosePosReceiver
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:105:9-110:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:105:19-60
+intent-filter#android.intent.action.ACTION_SHUTDOWN
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:106:13-109:29
+action#android.intent.action.ACTION_SHUTDOWN
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:108:17-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:108:25-77
+activity#com.centerm.jnbank.activity.WelcomeActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:113:9-119:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:114:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:115:13-118:29
+action#android.intent.action.MAIN
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:116:17-68
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:116:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:117:17-76
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:117:27-74
+activity#com.centerm.jnbank.activity.LoginActivityForFirst
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:128:9-130:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:129:13-59
+activity#com.centerm.jnbank.activity.LoginActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:132:9-134:61
+	android:windowSoftInputMode
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:134:13-59
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:133:13-51
+activity#com.centerm.jnbank.activity.MainActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:136:9-58
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:136:19-56
+activity#com.centerm.jnbank.base.MenuActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:138:9-54
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:138:19-52
+activity#com.centerm.jnbank.base.EntryActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:140:9-145:20
+	android:launchMode
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:140:54-84
+	android:theme
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:140:85-124
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:140:19-53
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.entry
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:141:13-144:29
+action#com.jiepos.jnbank.entry
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:142:17-65
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:142:25-63
+category#android.intent.category.DEFAULT
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:143:17-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:143:27-73
+activity#com.centerm.jnbank.activity.CheckCardActivty
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:147:9-152:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:147:19-60
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.checkcard
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:148:13-151:29
+action#com.jiepos.jnbank.checkcard
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:149:17-69
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:149:25-67
+activity#com.centerm.jnbank.activity.InputDirectorPwdActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:154:9-159:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:154:19-68
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.inputdirectorpwd
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:155:13-158:29
+action#com.jiepos.jnbank.inputdirectorpwd
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:156:17-76
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:156:25-74
+activity#com.centerm.jnbank.activity.InputMoneyActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:161:9-166:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:161:19-62
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.inputmoney
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:162:13-165:29
+action#com.jiepos.jnbank.inputmoney
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:163:17-70
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:163:25-68
+activity#com.centerm.jnbank.activity.InputMoneyActivityForNoOther
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:168:9-173:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:168:19-72
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.inputmoneyfornoother
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:169:13-172:29
+action#com.jiepos.jnbank.inputmoneyfornoother
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:170:17-80
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:170:25-78
+activity#com.centerm.jnbank.activity.UnionCardQueryActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:175:9-180:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:175:19-66
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.unioncardquery
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:176:13-179:29
+action#com.jiepos.jnbank.unioncardquery
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:177:17-74
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:177:25-72
+activity#com.centerm.jnbank.activity.InputOriginInfoActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:182:9-189:20
+	android:windowSoftInputMode
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:184:13-55
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:183:13-61
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.inputorigininfo
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:185:13-188:29
+action#com.jiepos.jnbank.inputorigininfo
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:186:17-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:186:25-73
+activity#com.centerm.jnbank.activity.InputValidDateActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:191:9-198:20
+	android:windowSoftInputMode
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:193:13-55
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:192:13-60
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.inputvaliddate
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:194:13-197:29
+action#com.jiepos.jnbank.inputvaliddate
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:195:17-74
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:195:25-72
+activity#com.centerm.jnbank.activity.InputPwdActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:200:9-205:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:200:19-60
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.inputpwd
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:201:13-204:29
+action#com.jiepos.jnbank.inputpwd
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:202:17-68
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:202:25-66
+activity#com.centerm.jnbank.activity.qrcode.ScanQrCodeActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:207:9-212:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:207:19-69
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.scan
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:208:13-211:29
+action#com.jiepos.jnbank.scan
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:209:17-64
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:209:25-62
+activity#com.centerm.jnbank.activity.qrcode.ShowCodeActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:220:9-225:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:220:19-67
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.showCode
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:221:13-224:29
+action#com.jiepos.jnbank.showCode
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:222:17-68
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:222:25-66
+activity#com.centerm.jnbank.activity.ResultActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:233:9-238:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:233:19-58
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.result
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:234:13-237:29
+action#com.jiepos.jnbank.result
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:235:17-66
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:235:25-64
+activity#com.centerm.jnbank.activity.ShowTradeInfoActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:240:9-245:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:240:19-65
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.showtradeinfo
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:241:13-244:29
+action#com.jiepos.jnbank.showtradeinfo
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:242:17-73
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:242:25-71
+activity#com.centerm.jnbank.activity.TradingActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:247:9-254:20
+	android:theme
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:249:13-52
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:248:13-53
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.trading
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:250:13-253:29
+action#com.jiepos.jnbank.trading
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:251:17-67
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:251:25-65
+activity#com.centerm.jnbank.activity.EsignatrueActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:255:9-260:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:255:19-62
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.esign
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:256:13-259:29
+action#com.jiepos.jnbank.esign
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:257:17-65
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:257:25-63
+activity#com.centerm.jnbank.activity.msn.ChangePwdMSNActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:262:9-267:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:262:19-68
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.changepwd
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:263:13-266:29
+action#com.jiepos.jnbank.changepwd
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:264:17-69
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:264:25-67
+activity#com.centerm.jnbank.activity.msn.AddUpdateOperatorActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:269:9-274:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:269:19-73
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.operatoradd
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:270:13-273:29
+action#com.jiepos.jnbank.operatoradd
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:271:17-71
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:271:25-69
+activity#com.centerm.jnbank.activity.msn.QueryOperatorActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:276:9-281:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:276:19-69
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.operatorquery
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:277:13-280:29
+action#com.jiepos.jnbank.operatorquery
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:278:17-73
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:278:25-71
+activity#com.centerm.jnbank.activity.msn.DelOperatorActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:283:9-288:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:283:19-67
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.operatordelete
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:284:13-287:29
+action#com.jiepos.jnbank.operatordelete
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:285:17-74
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:285:25-72
+activity#com.centerm.jnbank.activity.msn.ConfigureCommsActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:290:9-295:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:290:19-70
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.confiurecomms
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:291:13-294:29
+action#com.jiepos.jnbank.confiurecomms
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:292:17-73
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:292:25-71
+activity#com.centerm.jnbank.activity.msn.SettingMarchantActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:304:9-73
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:304:19-71
+activity#com.centerm.jnbank.activity.msn.SettingSystemActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:306:9-71
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:306:19-69
+activity#com.centerm.jnbank.activity.msn.SettingTransationActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:308:9-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:308:19-73
+activity#com.centerm.jnbank.activity.LockAcitivty
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:310:9-58
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:310:19-56
+activity#com.centerm.jnbank.activity.msn.SerialNumDetailActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:312:9-317:20
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:312:19-71
+intent-filter#android.intent.category.DEFAULT+com.jiepos.jnbank.serialnumdetail
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:313:13-316:29
+action#com.jiepos.jnbank.serialnumdetail
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:314:17-75
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:314:25-73
+activity#com.centerm.jnbank.activity.msn.QueryTradeActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:319:9-68
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:319:19-66
+activity#com.centerm.jnbank.activity.msn.TradeSummaryActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:321:9-70
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:321:19-68
+activity#com.centerm.jnbank.activity.msn.TradeDetailActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:323:9-69
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:323:19-67
+activity#com.centerm.jnbank.base.ImportKEKActivity
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:325:9-59
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:325:19-57
+service#com.centerm.jnbank.service.SendSignService
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:327:9-59
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:327:18-57
+meta-data#POS_CHANNEL
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:329:9-331:45
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:331:13-43
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:330:13-39
+meta-data#COMMON_IP1
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:333:9-335:44
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:335:13-42
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:334:13-38
+meta-data#COMMON_PORT1
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:337:9-339:46
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:339:13-44
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:338:13-40
+meta-data#COMMON_IP2
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:341:9-343:44
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:343:13-42
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:342:13-38
+meta-data#COMMON_PORT2
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:345:9-347:46
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:347:13-44
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:346:13-40
+meta-data#COMMON_IP_PARAM
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:349:9-351:49
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:351:13-47
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:350:13-43
+meta-data#COMMON_PORT_PARAM
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:353:9-355:51
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:355:13-49
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:354:13-45
+meta-data#COMMON_DOMAIN_NAME
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:357:9-359:52
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:359:13-50
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:358:13-46
+meta-data#KEK
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:361:9-363:37
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:363:13-35
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:362:13-31
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:365:9-367:64
+	android:value
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:367:13-61
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:366:13-52
+service#com.baidu.location.f
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:369:9-370:19
+	android:enabled
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:369:54-76
+	android:process
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:369:77-102
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:369:18-53
+service#com.centerm.jnbank.service.LocationService
+ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:371:9-68
+	android:name
+		ADDED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml:371:18-57
+uses-sdk
+INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:lib_MbRefreshLayout-release:] C:\Users\Administrator\.android\build-cache\396e0d633bd13b30bcc0413d4d0847d948154955\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\0bc93e9f4677e30b0dd6e64c5b4a0f4fb27f63ee\output\AndroidManifest.xml:5:5-7:41
+MERGED from [EPos:lib_Iso8583:unspecified] F:\xiangmubeifen\0929zao\EPos\lib_Iso8583\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\Administrator\.android\build-cache\73b9c7cfb95123901e209ae939b5f196d305d0b0\output\AndroidManifest.xml:20:5-43
+MERGED from [org.xutils:xutils:3.3.34] C:\Users\Administrator\.android\build-cache\06b9435788a73d020cfee10fa1a01025931fa326\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jaeger.statusbaruitl:library:1.0.0] C:\Users\Administrator\.android\build-cache\b91f1d5abeccdf4904d789e81ea8cdbc4a543ed9\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Administrator\.android\build-cache\74367650d43bfe26f099466a131827edf299ab11\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Administrator\.android\build-cache\056daafca64bc4a638ce43d35eb7469716a1b41a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Administrator\.android\build-cache\d4f100d3627de496bc060fdfaf2a186d65bad6a6\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Administrator\.android\build-cache\ed90b56a64853a1ad9b17f23c52653bbaae3282b\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Administrator\.android\build-cache\39923d19849e4965523688289dbd8c08170b8f79\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Administrator\.android\build-cache\99d8b934c74749b9873b1a3aec1eb37a659aa9e5\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Administrator\.android\build-cache\60f02ec42173d69e6286cbd8eabd4bca3acc03de\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Administrator\.android\build-cache\bf214869860d7b888b8880b9fa53a3e1ffed8648\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Administrator\.android\build-cache\1d6e1feaeac45c1a1ef7b6824509ce6044166811\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Administrator\.android\build-cache\74367650d43bfe26f099466a131827edf299ab11\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+		INJECTED from F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\Administrator\.android\build-cache\73b9c7cfb95123901e209ae939b5f196d305d0b0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Administrator\.android\build-cache\74367650d43bfe26f099466a131827edf299ab11\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Administrator\.android\build-cache\056daafca64bc4a638ce43d35eb7469716a1b41a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Administrator\.android\build-cache\d4f100d3627de496bc060fdfaf2a186d65bad6a6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Administrator\.android\build-cache\ed90b56a64853a1ad9b17f23c52653bbaae3282b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Administrator\.android\build-cache\39923d19849e4965523688289dbd8c08170b8f79\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Administrator\.android\build-cache\99d8b934c74749b9873b1a3aec1eb37a659aa9e5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Administrator\.android\build-cache\60f02ec42173d69e6286cbd8eabd4bca3acc03de\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Administrator\.android\build-cache\bf214869860d7b888b8880b9fa53a3e1ffed8648\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Administrator\.android\build-cache\1d6e1feaeac45c1a1ef7b6824509ce6044166811\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\Administrator\.android\build-cache\73b9c7cfb95123901e209ae939b5f196d305d0b0\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\Administrator\.android\build-cache\73b9c7cfb95123901e209ae939b5f196d305d0b0\output\AndroidManifest.xml:23:9-47

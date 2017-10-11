@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:minHeight="@dimen/menu_list_item_min_height"
+                android:paddingLeft="@dimen/margin_36"
+                android:paddingRight="@dimen/margin_40">
+
+    <ImageView
+        android:id="@+id/menu_icon_show"
+        style="@style/MenuGridItemIcon"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/menu_text_show"
+        style="@style/MenuGridItemText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_toRightOf="@+id/menu_icon_show"/>
+
+    <ImageView
+        android:id="@+id/arrow_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow"/>
+
+    <CheckBox
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:button="@drawable/sel_toggle"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="gone"/>
+
+</RelativeLayout>

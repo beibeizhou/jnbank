@@ -1,0 +1,54 @@
+<!--节点ID为0，代表主界面-->
+<!--消费流程-->
+<process transCode="">
+    <!--输入金额-->
+    <component name="com.jiepos.jnbank.inputmoney" id="1">
+        <condition id="1">2</condition>
+    </component>
+    <!--检卡-->
+    <component name="com.jiepos.jnbank.checkcard" id="2">
+        <condition id="1">4</condition>
+        <condition id="2">5</condition><!--小额免密直接开始联机-->
+        <condition id="3">3</condition><!--国际银联卡会要求输入主管密码-->
+        <condition id="4">5</condition>
+        <condition id="99">7</condition>
+    </component>
+    <!--输入主管密码-->
+    <component name="com.jiepos.jnbank.inputdirectorpwd" id="3">
+        <condition id="1">4</condition>
+        <condition id="99">7</condition>
+    </component>
+    <!--输入密码-->
+    <component name="com.jiepos.jnbank.inputpwd" id="4">
+        <condition id="1">5</condition>
+        <condition id="99">7</condition>
+    </component>
+    <!--联机加载-->
+    <component name="com.jiepos.jnbank.trading" id="5">
+        <condition id="1">6</condition>
+        <condition id="2">7</condition>
+        <condition id="3">8</condition>
+        <condition id="99">7</condition>
+         <condition id="22">22</condition>
+    </component>
+    <!--电子签名-->
+    <component name="com.jiepos.jnbank.esign" id="6">
+        <condition id="1">7</condition>
+        <condition id="99">7</condition>
+         <condition id="22">22</condition>
+    </component>
+    <!--交易结果-->
+    <component name="com.jiepos.jnbank.result" id="7">
+        <condition id="1">0</condition>
+        <condition id="22">22</condition>
+    </component>
+    <!--工会卡界面-->
+        <component name="com.jiepos.jnbank.unioncardquery" id="8">
+            <condition id="1">4</condition>
+            <condition id="99">7</condition>
+        </component>
+   <!--支付组件入口-->
+    <component name="com.jiepos.jnbank.entry" id="22">
+        <condition id="1">0</condition>
+    </component>
+</process>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\main\shaders"/></dataSet><dataSet config="Payment_Test"><source path="F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\Payment_Test\shaders"/></dataSet><dataSet config="release"><source path="F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\release\shaders"/></dataSet><dataSet config="Payment_TestRelease"><source path="F:\xiangmubeifen\0929zao\EPos\jnBankPayment\src\Payment_TestRelease\shaders"/></dataSet></merger>

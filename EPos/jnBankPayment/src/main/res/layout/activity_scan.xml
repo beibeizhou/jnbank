@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/trans_money_block"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/result_info_item_height"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <TextView
+            style="@style/BaseText.Tip"
+            android:textColor="@color/font_white"
+            android:text="@string/label_trans_amt"/>
+
+        <TextView
+            android:id="@+id/amount_show"
+            android:textColor="@color/font_white"
+            style="@style/BaseText.Tip"/>
+
+        </LinearLayout>
+
+        <com.google.app.zxing.view.ViewfinderView
+            android:id="@+id/viewfinder_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

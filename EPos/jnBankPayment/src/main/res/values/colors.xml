@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0085ee</color>//#D0262A<!--程序主色调-->
+    <color name="colorPrimaryDark">#000000</color>//#D0262A
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMenuRipple">#f2f0f0</color>
+    <color name="trading_window_bg">#7F000000</color>
+    <color name="nagtive_btn">#79c4fe</color>
+
+    <color name="common_main_bg">#ffffff</color><!--窗口背景色-->
+    <color name="common_divider">#eff1f6</color>
+    <color name="common_list_item_pre_bg">#f2f0f0</color>
+    <color name="secondary_bg">#f4f1f3</color>
+    <color name="result_item_name_bg">#f2f2f2</color>
+
+    <!--涉及字体颜色的统一以font_为前缀-->
+    <color name="font_white">#FFFFFF</color>
+    <color name="font_black">#2b2525</color>
+    <color name="font_tip">#666666</color>
+    <color name="font_hint">#363636</color>
+    <color name="font_hint2">#BFBFBF</color>
+    <color name="common_title">#282828</color>
+
+
+    <color name="font_red">#e05c58</color>
+    <color name="font_blue">#4495f1</color>
+
+    <!--扫描相关-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="main_0055f0">#0055f0</color>
+    <color name="main_399bfe">#399bfe</color>
+    <color name="main_0076f1">#0076f1</color>
+
+    <color name="main_c72e2e">#c72e2e</color>
+    <color name="main_dddddd">#dddddd</color>
+    <color name="main_333333">#333333</color>
+    <color name="main_e3e7ee">#e3e7ee</color>
+
+    <color name="card_query">#333</color>
+    <color name="line_color">#E9E9E9</color>
+    <color name="hint_txt_color">#888888</color>
+
+</resources>

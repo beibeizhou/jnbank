@@ -1,0 +1,11 @@
+<!--下载参数-->
+<process>
+    <!--联机-->
+    <component name="com.jiepos.jnbank.trading" id="1">
+        <condition id="1">2</condition>
+    </component>
+    <!--交易结果-->
+    <component name="com.jiepos.jnbank.result" id="2">
+        <condition id="1">0</condition>
+    </component>
+</process>

@@ -1,0 +1,8 @@
+<!--交易明细流程-->
+<!--节点ID为0，代表主界面-->
+<process transCode="">
+    <!--交易明细-->
+    <component name="com.jiepos.jnbank.serialnumdetail" id="2">
+        <condition id="1">0</condition>
+    </component>
+</process>

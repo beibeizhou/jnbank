@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin_20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--交易类型汇总-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/form"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/margin_40"
+                android:paddingRight="@dimen/margin_40">
+
+                <include
+                    android:id="@+id/label_name_group"
+                    layout="@layout/v_trade_record_item2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/trade_record_title_height"
+                    android:minHeight="@dimen/trade_record_title_height"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_divider_size"
+                    android:background="@color/common_divider"/>
+
+                <com.centerm.jnbank.view.AtMostListView
+                    android:id="@+id/list_v"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@color/common_divider"
+                    android:dividerHeight="@dimen/common_divider_size"/>
+            </LinearLayout>
+
+            <!--货币类型、借贷记汇总-->
+
+            <com.centerm.jnbank.view.AtMostListView
+                android:id="@+id/list_v2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_40"
+                android:background="@drawable/form"
+                android:divider="@color/common_divider"
+                android:dividerHeight="@dimen/common_divider_size"
+                android:paddingLeft="@dimen/margin_40"
+                android:paddingRight="@dimen/margin_40"/>
+            <Button
+                style="@style/BaseButton.Positive"
+                android:layout_marginLeft="@dimen/margin_40"
+                android:layout_marginRight="@dimen/margin_40"
+                android:layout_marginTop="@dimen/margin_40"
+                android:onClick="onPrintBtnClick"
+                android:text="@string/label_print_slip"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+

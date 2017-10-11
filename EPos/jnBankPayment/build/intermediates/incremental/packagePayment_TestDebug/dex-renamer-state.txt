@@ -1,0 +1,7 @@
+#Wed Oct 11 16:08:48 CST 2017
+base.0=F\:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\transforms\\dex\\Payment_Test\\debug\\folders\\1000\\10000\\instant-run-bootstrap_46c72b1cca68f9051a22d5115575ad5233e81829
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\transforms\\dex\\Payment_Test\\debug\\folders\\1000\\10000\\instant-run_0c5baf21b3f862cd10b8e48dfb84484495d508cb\\classes.dex
+base.1=F\:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\transforms\\dex\\Payment_Test\\debug\\folders\\1000\\10000\\instant-run_0c5baf21b3f862cd10b8e48dfb84484495d508cb
+file.0=F\:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\transforms\\dex\\Payment_Test\\debug\\folders\\1000\\10000\\instant-run-bootstrap_46c72b1cca68f9051a22d5115575ad5233e81829\\classes.dex

@@ -1,0 +1,770 @@
+[
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_sfpm.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_sfpm.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\switch_on.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\switch_on.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_dyjyhz.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_dyjyhz.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\operator_icon_search.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\operator_icon_search.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0001.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0001.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_alipay.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_alipay.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0008.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0008.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_dyjymx.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_dyjymx.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_diasble.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_diasble.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\dot.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\dot.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0004.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0004.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0015.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0015.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_2.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_2.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_zdbb.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_zdbb.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\manage_icon_locking.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\manage_icon_locking.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_printnum.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_printnum.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_glczy.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_glczy.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0003.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0003.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0006.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0006.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_revoke_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_revoke_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_jygnsz.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_jygnsz.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\form.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\form.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_other_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_other_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_0.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_0.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0006.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0006.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0011.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0011.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\topbar.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\topbar.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0002.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0002.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_search.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_search.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_resetpassword.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_resetpassword.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_czyqd.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_czyqd.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_weixin.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_weixin.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0002.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0002.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0011.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0011.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_del.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_del.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0008.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0008.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\operator_icon_user.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\operator_icon_user.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_revoke2_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_revoke2_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\bt_back.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\bt_back.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0007.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0007.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0013.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0013.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_xxcfcs.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_xxcfcs.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_return.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_return.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\dot2.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\dot2.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\bt_del_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\bt_del_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_cdzhyb.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_cdzhyb.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_qtgn.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_qtgn.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_card.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_card.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0001.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0001.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_pre.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_pre.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0005.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0005.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\pic_success.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\pic_success.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_xtcssz.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_xtcssz.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0008.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0008.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0004.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0004.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_ysqwctz.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_ysqwctz.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\swipe_border.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\swipe_border.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_4.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_4.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\pic_jingao.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\pic_jingao.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_getkey.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_getkey.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_7.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_7.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_txcssz.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_txcssz.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\top_logo.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\top_logo.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0005.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0005.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_others.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_others.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_qd.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_qd.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0007.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0007.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\trade_icon_parameter.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\trade_icon_parameter.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\erweima.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\erweima.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_8.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_8.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0001.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0001.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\textbox_input.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\textbox_input.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\list_icon_ysq.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\list_icon_ysq.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_consume.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_consume.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_disable.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_disable.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0011.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0011.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0006.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0006.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\pic_lock.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\pic_lock.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_dot.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_dot.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\bt_edit_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\bt_edit_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_add.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_add.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_js.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_js.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_revoke2.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_revoke2.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0010.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0010.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_3.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_3.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0005.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0005.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_wzfkhdm.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_wzfkhdm.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_csdy.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_csdy.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_exit_pre.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_exit_pre.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\wl_ic_clear.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\wl_ic_clear.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\manage_icon_sign.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\manage_icon_sign.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_notice.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_notice.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0007.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0007.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\list_icon_ysqwccx.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\list_icon_ysqwccx.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0015.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0015.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0010.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0010.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\trade_icon_control.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\trade_icon_control.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0010.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0010.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_cdryyb.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_cdryyb.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0006.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0006.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\list_icon_ysqcx.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\list_icon_ysqcx.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_clearlist.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_clearlist.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0009.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0009.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0005.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0005.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_1.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_1.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_revoke.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_revoke.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_zggm.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_zggm.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_xz.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_xz.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_password.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_password.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_notice_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_notice_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\dot2_on.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\dot2_on.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\process1.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\process1.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\list_icon_ysqwc.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\list_icon_ysqwc.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_zdjybs.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_zdjybs.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_weixin.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_weixin.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0014.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0014.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\radio.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\radio.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_home.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_home.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_dyzs.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_dyzs.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0003.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0003.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\dot_on.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\dot_on.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_zhifubao.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_zhifubao.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0014.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0014.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\pic_error.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\pic_error.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_exit.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_exit.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_shop.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_shop.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_search.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_search.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\bt_edit.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\bt_edit.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0008.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0008.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_return_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_return_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_sdzd.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_sdzd.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\radio_on.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\radio_on.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_popup.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_popup.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0001.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0001.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_popup_cancle_pre.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_popup_cancle_pre.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\manager_bg.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\manager_bg.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0012.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0012.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0012.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0012.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0015.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0015.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0010.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0010.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\other_icon_download.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\other_icon_download.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0007.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0007.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_hqzdzmy.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_hqzdzmy.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\manage_icon_signout.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\manage_icon_signout.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\arrow.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\arrow.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\bt_back_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\bt_back_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_posqd.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_posqd.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\pic_warn.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\pic_warn.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_manage.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_manage.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0002.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0002.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\erweima_bg.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\erweima_bg.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_null.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_null.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_hxgn.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_hxgn.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_shcssz.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_shcssz.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0013.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0013.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_6.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_6.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_yxhkkg.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_yxhkkg.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0002.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0002.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0004.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0004.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\num_5.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\num_5.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\bg_popup.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\bg_popup.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\operator_icon_add.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\operator_icon_add.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0009.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0009.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0009.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0009.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\trade_icon_password.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\trade_icon_password.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_other.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_other.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\feijieka0014.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\feijieka0014.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0003.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0003.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\bg_toast.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\bg_toast.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_popup_pre.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_popup_pre.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0004.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0004.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\btn_popup_cancle.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\btn_popup_cancle.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_search_pre.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_search_pre.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_cscd.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_cscd.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\manage_icon_clearing.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\manage_icon_clearing.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\bt_del.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\bt_del.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_home_print.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_home_print.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_user.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_user.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\kefu.9.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\kefu.9.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_qcjyls.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_qcjyls.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\switch_off.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\switch_off.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_ysqwcqq.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_ysqwcqq.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0003.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0003.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\home_bg.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\home_bg.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_menu_ckxf.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_menu_ckxf.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\xinpianka0012.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\xinpianka0012.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_del.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_del.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\citiaoka0013.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\citiaoka0013.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\loading0009.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\loading0009.png"
+    },
+    {
+        "merged": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\build\\intermediates\\res\\merged\\Payment_Test\\debug\\drawable-xhdpi\\icon_admin_numset.png",
+        "source": "F:\\xiangmubeifen\\0929zao\\EPos\\jnBankPayment\\src\\main\\res\\drawable-xhdpi\\icon_admin_numset.png"
+    }
+]

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:tools="http://schemas.android.com/tools"
+          package="com.centerm.jnbank"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CLOUDPOS_PRINTER"/>
+    <uses-permission android:name="android.permission.LAKALA.ENABLE_HOME"/>
+
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <!-- 用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- SD卡读取权限，用户写入离线定位数据-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!--状态栏控制-->
+    <uses-permission android:name="android.permission.STATUS_BAR"
+                     tools:ignore="ProtectedPermissions"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- 密码键盘权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PINPAD_MODULE"/>
+    <!-- 刷卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SWIPE_MODULE"/>
+    <!-- POBC权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PBOC_MODULE"/>
+    <!-- 新PBOC权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_NEW_PBOC_MODULE"/>
+    <!-- IC卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_IC_MODULE"/>
+    <!-- 非接卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_RF_MODULE"/>
+    <!-- 打印机权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PRINTER_MODULE"/>
+    <!-- 系统设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SYSTEM_MODULE"/>
+    <!-- 钱箱设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_CASHBOX_MODULE"/>
+    <!-- 客显设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_CUSTOMER_DISPLAY_MODULE"/>
+    <!-- M1卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_M1_MODULE"/>
+    <!-- MODEM设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MODEM_MODULE"/>
+    <!-- PSAM卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PSAM_MODULE"/>
+    <!-- 串口设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SERIAL_PORT_MODULE"/>
+    <!-- 辅屏设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_OLED_MODULE"/>
+    <!-- 身份证设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_ID_MODULE"/>
+    <!-- LCD设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_LCD_MODULE"/>
+    <!-- 安全模块权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SAFE_MODULE"/>
+    <!-- MEM4442卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM4442_MODULE"/>
+    <!-- MEM102卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM102_MODULE"/>
+    <!-- MEM1608卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM1608_MODULE"/>
+    <!-- MEMAT24C02卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEMAT24C02_MODULE"/>
+    <!-- 版本获取权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_VERSION_MODULE"/>
+    <!-- 语音播报 -->
+    <uses-permission android:name="android.permission.CPAYSDK_VOICE_MODULE"/>
+    <!-- 静默安装应用接口权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SILENT_INSTALL"/>
+    <!-- 静默卸载应用接口权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SILENT_UNINSTALL"/>
+
+    <application
+        android:name=".EposApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label,android:icon,android:theme">
+
+        <receiver android:name=".receiver.ClosePosReceiver" >
+            <intent-filter>
+                <!-- 关机广播 -->
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+
+        <!--启动界面-->
+        <activity
+            android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    <!--    <activity
+            android:name=".activity.LaunchActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+        <activity
+            android:name=".activity.LoginActivityForFirst">
+        </activity>
+        <!--登录界面-->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:windowSoftInputMode="stateUnspecified"/>
+        <!--主界面-->
+        <activity android:name=".activity.MainActivity"/>
+        <!--菜单界面-->
+        <activity android:name=".base.MenuActivity"/>
+        <!--入口界面-->
+        <activity android:name=".base.EntryActivity" android:launchMode="singleTop" android:theme="@style/AppTheme.Trading">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.entry"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--检卡界面-->
+        <activity android:name=".activity.CheckCardActivty">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.checkcard"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--输入主管密码界面-->
+        <activity android:name=".activity.InputDirectorPwdActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.inputdirectorpwd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--输入金额界面-->
+        <activity android:name=".activity.InputMoneyActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.inputmoney"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--输入金额界面-->
+        <activity android:name=".activity.InputMoneyActivityForNoOther">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.inputmoneyfornoother"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--查询工会卡界面-->
+        <activity android:name=".activity.UnionCardQueryActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.unioncardquery"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--输入原始交易信息界面-->
+        <activity
+            android:name=".activity.InputOriginInfoActivity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.inputorigininfo"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--输入卡有效期界面-->
+        <activity
+            android:name=".activity.InputValidDateActivity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.inputvaliddate"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--输入密码界面-->
+        <activity android:name=".activity.InputPwdActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.inputpwd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--扫码页-->
+        <activity android:name=".activity.qrcode.ScanQrCodeActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.scan"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+       <!-- <activity android:name=".activity.MipcaActivityCapture">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.scan"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>-->
+        <!--显示二维码-->
+        <activity android:name=".activity.qrcode.ShowCodeActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.showCode"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--<activity android:name=".activity.ShowCodeActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.showCode"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>-->
+        <!--交易结果页-->
+        <activity android:name=".activity.ResultActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.result"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--显示原始交易信息界面-->
+        <activity android:name=".activity.ShowTradeInfoActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.showtradeinfo"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--联机请求界面-->
+        <activity
+            android:name=".activity.TradingActivity"
+            android:theme="@style/AppTheme.Trading">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.trading"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.EsignatrueActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.esign"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- 主管改密 -->
+        <activity android:name=".activity.msn.ChangePwdMSNActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.changepwd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- 增加操作员 -->
+        <activity android:name=".activity.msn.AddUpdateOperatorActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.operatoradd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- 查询操作员 -->
+        <activity android:name=".activity.msn.QueryOperatorActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.operatorquery"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- 删除操作员 -->
+        <activity android:name=".activity.msn.DelOperatorActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.operatordelete"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- 通讯参数 -->
+        <activity android:name=".activity.msn.ConfigureCommsActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.confiurecomms"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- 通讯参数 -->
+        <!--    <activity android:name=".activity.msn.SerialNumQueryActivity">
+                <intent-filter>
+                    <action android:name="com.jiepos.jnbank.serialnumquery"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>-->
+        <!--商户参数设置-->
+        <activity android:name=".activity.msn.SettingMarchantActivity"/>
+        <!--系统参数设置-->
+        <activity android:name=".activity.msn.SettingSystemActivity"/>
+        <!--交易参数设置-->
+        <activity android:name=".activity.msn.SettingTransationActivity"/>
+        <!--锁机界面-->
+        <activity android:name=".activity.LockAcitivty"/>
+        <!-- 交易明细 -->
+        <activity android:name=".activity.msn.SerialNumDetailActivity">
+            <intent-filter>
+                <action android:name="com.jiepos.jnbank.serialnumdetail"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!--交易查询-->
+        <activity android:name=".activity.msn.QueryTradeActivity"/>
+        <!--交易汇总-->
+        <activity android:name=".activity.msn.TradeSummaryActivity"/>
+        <!--交易详情-->
+        <activity android:name=".activity.msn.TradeDetailActivity"/>
+
+        <activity android:name=".base.ImportKEKActivity"/>
+
+        <service android:name=".service.SendSignService"/>
+        <!--收单渠道名-->
+        <meta-data
+            android:name="POS_CHANNEL"
+            android:value="${POS_CHANNEL}"/>
+        <!--通讯IP1-->
+        <meta-data
+            android:name="COMMON_IP1"
+            android:value="${COMMON_IP1}"/>
+        <!--通讯端口1-->
+        <meta-data
+            android:name="COMMON_PORT1"
+            android:value="${COMMON_PORT1}"/>
+        <!--通讯IP2-->
+        <meta-data
+            android:name="COMMON_IP2"
+            android:value="${COMMON_IP2}"/>
+        <!--通讯端口2-->
+        <meta-data
+            android:name="COMMON_PORT2"
+            android:value="${COMMON_PORT2}"/>
+        <!--终端管理IP-->
+        <meta-data
+            android:name="COMMON_IP_PARAM"
+            android:value="${COMMON_IP_PARAM}"/>
+        <!--终端管理端口-->
+        <meta-data
+            android:name="COMMON_PORT_PARAM"
+            android:value="${COMMON_PORT_PARAM}"/>
+        <!--参数域名-->
+        <meta-data
+            android:name="COMMON_DOMAIN_NAME"
+            android:value="${COMMON_DOMAIN_NAME}"/>
+        <!--通讯秘钥-->
+        <meta-data
+            android:name="KEK"
+            android:value="${KEK}"/>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="v184lyIirD77z9AY1tPFlar4FNVNrXft" />
+
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
+        </service>
+        <service android:name=".service.LocationService"></service>
+    </application>
+
+    <!-- 密码键盘权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PINPAD_MODULE"/>
+    <!-- 刷卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SWIPE_MODULE"/>
+    <!-- POBC权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PBOC_MODULE"/>
+    <!-- 新PBOC权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_NEW_PBOC_MODULE"/>
+    <!-- IC卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_IC_MODULE"/>
+    <!-- 非接卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_RF_MODULE"/>
+    <!-- 打印机权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PRINTER_MODULE"/>
+    <!-- 系统设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SYSTEM_MODULE"/>
+    <!-- 钱箱设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_CASHBOX_MODULE"/>
+    <!-- 客显设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_CUSTOMER_DISPLAY_MODULE"/>
+    <!-- M1卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_M1_MODULE"/>
+    <!-- MODEM设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MODEM_MODULE"/>
+    <!-- PSAM卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PSAM_MODULE"/>
+    <!-- 串口设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SERIAL_PORT_MODULE"/>
+    <!-- 辅屏设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_OLED_MODULE"/>
+    <!-- 身份证设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_ID_MODULE"/>
+    <!-- LCD设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_LCD_MODULE"/>
+    <!-- 安全模块权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SAFE_MODULE"/>
+    <!-- MEM4442卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM4442_MODULE"/>
+    <!-- MEM102卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM102_MODULE"/>
+    <!-- MEM1608卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM1608_MODULE"/>
+    <!-- MEMAT24C02卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEMAT24C02_MODULE"/>
+    <!-- 版本获取权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_VERSION_MODULE"/>
+    <!-- 语音播报 -->
+    <uses-permission android:name="android.permission.CPAYSDK_VOICE_MODULE"/>
+    <!-- 静默安装应用接口权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SILENT_INSTALL"/>
+    <!-- 静默卸载应用接口权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SILENT_UNINSTALL"/>
+
+</manifest>

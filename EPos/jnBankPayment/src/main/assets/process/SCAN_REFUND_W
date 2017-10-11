@@ -1,0 +1,38 @@
+<!--退货交易流程-->
+<!--节点ID为0，代表主界面-->
+<process transCode="">
+    <!--输入主管密码界面-->
+    <component name="com.jiepos.jnbank.inputdirectorpwd" id="1">
+        <condition id="1">3</condition>
+    </component>
+    <!--检卡-->
+    <!--<component name="com.jiepos.jnbank.checkcard" id="2">-->
+        <!--<condition id="1">3</condition>-->
+        <!--<condition id="99">6</condition>-->
+    <!--</component>-->
+    <!--输入原始交易信息界面，输入原交易参考号、原始交易日期-->
+    <component name="com.jiepos.jnbank.inputorigininfo" id="3">
+        <condition id="1">4</condition>
+    </component>
+    <!--输入退货金额-->
+    <component name="com.jiepos.jnbank.inputmoney" id="4">
+        <condition id="1">5</condition>
+    </component>
+    <!--联机加载-->
+    <component name="com.jiepos.jnbank.trading" id="5">
+        <condition id="1">7</condition>
+        <condition id="2">7</condition>
+        <condition id="99">7</condition>
+        <condition id="22">22</condition>
+    </component>
+    <!--交易结果-->
+    <component name="com.jiepos.jnbank.result" id="7">
+        <condition id="1">0</condition>
+        <condition id="22">22</condition>
+    </component>
+
+    <!--支付组件入口-->
+    <component name="com.jiepos.jnbank.entry" id="22">
+        <condition id="1">0</condition>
+    </component>
+</process>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout" />
+
+    <TextView
+        style="@style/ChangePwdMSNItemStyle"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_50"
+        android:text="@string/label_please_input_old_pwd" />
+
+    <EditText
+        android:id="@+id/edtxt_old_pwd"
+        style="@style/ChangePwdMSNItemStyle.EdtxtStyle" />
+
+    <TextView
+        style="@style/ChangePwdMSNItemStyle"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_30"
+        android:text="@string/label_please_input_new_pwd" />
+
+    <EditText
+        android:id="@+id/edtxt_new_pwd"
+        style="@style/ChangePwdMSNItemStyle.EdtxtStyle" />
+
+
+    <TextView
+        android:id="@+id/txtvw_renew_pwd"
+        style="@style/ChangePwdMSNItemStyle"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_30"
+        android:text="@string/label_please_input_renew_pwd" />
+
+    <EditText
+        android:id="@+id/edtxt_renew_pwd"
+        style="@style/ChangePwdMSNItemStyle.EdtxtStyle" />
+
+    <Button
+        style="@style/ChangePwdButtonStyle"
+        android:layout_marginTop="@dimen/margin_60"
+        android:onClick="onChangePwd" />
+
+
+</LinearLayout>

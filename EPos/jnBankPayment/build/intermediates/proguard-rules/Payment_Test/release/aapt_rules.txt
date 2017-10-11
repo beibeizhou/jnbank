@@ -1,0 +1,272 @@
+# view res/layout/abc_alert_dialog_material.xml #generated:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
+# view res/layout/abc_alert_dialog_material.xml #generated:52
+# view res/layout/abc_alert_dialog_material.xml #generated:66
+# view res/layout/abc_alert_dialog_title_material.xml #generated:56
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_select_dialog_material.xml #generated:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# view res/layout/activity_query_operator.xml #generated:36
+# view res/layout/activity_query_operator.xml #generated:38
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_title_material.xml #generated:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view AndroidManifest.xml #generated:458
+-keep class com.baidu.location.f { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.centerm.jnbank.EposApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.centerm.jnbank.activity.CheckCardActivty { <init>(...); }
+
+# view AndroidManifest.xml #generated:337
+-keep class com.centerm.jnbank.activity.EsignatrueActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.centerm.jnbank.activity.InputDirectorPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.centerm.jnbank.activity.InputMoneyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:236
+-keep class com.centerm.jnbank.activity.InputMoneyActivityForNoOther { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.centerm.jnbank.activity.InputOriginInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:272
+-keep class com.centerm.jnbank.activity.InputPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:262
+-keep class com.centerm.jnbank.activity.InputValidDateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:400
+-keep class com.centerm.jnbank.activity.LockAcitivty { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.centerm.jnbank.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.centerm.jnbank.activity.LoginActivityForFirst { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.centerm.jnbank.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:312
+-keep class com.centerm.jnbank.activity.ResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:320
+-keep class com.centerm.jnbank.activity.ShowTradeInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:328
+-keep class com.centerm.jnbank.activity.TradingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class com.centerm.jnbank.activity.UnionCardQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.centerm.jnbank.activity.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:353
+-keep class com.centerm.jnbank.activity.msn.AddUpdateOperatorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:345
+-keep class com.centerm.jnbank.activity.msn.ChangePwdMSNActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:377
+-keep class com.centerm.jnbank.activity.msn.ConfigureCommsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:369
+-keep class com.centerm.jnbank.activity.msn.DelOperatorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:361
+-keep class com.centerm.jnbank.activity.msn.QueryOperatorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:410
+-keep class com.centerm.jnbank.activity.msn.QueryTradeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:402
+-keep class com.centerm.jnbank.activity.msn.SerialNumDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:394
+-keep class com.centerm.jnbank.activity.msn.SettingMarchantActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:396
+-keep class com.centerm.jnbank.activity.msn.SettingSystemActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:398
+-keep class com.centerm.jnbank.activity.msn.SettingTransationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:414
+-keep class com.centerm.jnbank.activity.msn.TradeDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:412
+-keep class com.centerm.jnbank.activity.msn.TradeSummaryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:280
+-keep class com.centerm.jnbank.activity.qrcode.ScanQrCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:296
+-keep class com.centerm.jnbank.activity.qrcode.ShowCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.centerm.jnbank.base.EntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:415
+-keep class com.centerm.jnbank.base.ImportKEKActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class com.centerm.jnbank.base.MenuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class com.centerm.jnbank.receiver.ClosePosReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:463
+-keep class com.centerm.jnbank.service.LocationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:417
+-keep class com.centerm.jnbank.service.SendSignService { <init>(...); }
+
+# view res/layout/activity_trade_summary.xml #generated:41
+# view res/layout/activity_trade_summary.xml #generated:51
+-keep class com.centerm.jnbank.view.AtMostListView { <init>(...); }
+
+# view res/layout/activity_query_trade.xml #generated:21
+-keep class com.centerm.jnbank.view.ClearEditText { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:12
+# view res/layout/activity_menu_grid.xml #generated:10
+-keep class com.centerm.jnbank.view.GridViewPager { <init>(...); }
+
+# view res/layout/activity_electronic_sign.xml #generated:18
+-keep class com.centerm.jnbank.view.HandwrittenPad { <init>(...); }
+
+# view res/layout/activity_input_director_pwd.xml #generated:69
+# view res/layout/activity_input_money.xml #generated:85
+-keep class com.centerm.jnbank.view.NumberPad { <init>(...); }
+
+# view res/layout/activity_launcher.xml #generated:7
+-keep class com.centerm.jnbank.view.numProgress.NumberProgressBar { <init>(...); }
+
+# view res/layout/activity_query_trade.xml #generated:55
+-keep class com.cjj.MaterialRefreshLayout { <init>(...); }
+
+# view res/layout/activity_scan.xml #generated:40
+-keep class com.google.app.zxing.view.ViewfinderView { <init>(...); }
+
+# onClick res/layout/activity_showcodeurltwo.xml #generated:51
+-keepclassmembers class * { *** checkExit(...); }
+
+# onClick res/layout/activity_transation_setting.xml #generated:1026
+-keepclassmembers class * { *** modifyParam(...); }
+
+# onClick res/layout/activity_transation_setting.xml #generated:265
+-keepclassmembers class * { *** modifyParam2(...); }
+
+# onClick res/layout/activity_trading.xml #generated:24
+-keepclassmembers class * { *** onCancelQueryClick(...); }
+
+# onClick res/layout/activity_show_qr_code.xml #generated:85
+-keepclassmembers class * { *** onCancelTradeClick(...); }
+
+# onClick res/layout/activity_change_pwd_msn.xml #generated:41
+-keepclassmembers class * { *** onChangePwd(...); }
+
+# onClick res/layout/activity_import_tek.xml #generated:24
+-keepclassmembers class * { *** onConfirm(...); }
+
+# onClick res/layout/activity_input_money.xml #generated:103
+# onClick res/layout/activity_input_money.xml #generated:125
+# onClick res/layout/activity_input_money.xml #generated:70
+# onClick res/layout/activity_input_origin_info.xml #generated:92
+# onClick res/layout/activity_input_pwd.xml #generated:129
+# onClick res/layout/activity_input_valid_date.xml #generated:29
+# onClick res/layout/activity_result.xml #generated:66
+# onClick res/layout/activity_show_trade_info.xml #generated:27
+# onClick res/layout/activity_unioncard_query.xml #generated:171
+# onClick res/layout/activity_unioncard_query.xml #generated:178
+-keepclassmembers class * { *** onConfirmClick(...); }
+
+# onClick res/layout/activity_del_operator.xml #generated:25
+-keepclassmembers class * { *** onDelClick(...); }
+
+# onClick res/layout/activity_login.xml #generated:52
+-keepclassmembers class * { *** onLoginClick(...); }
+
+# onClick res/layout/activity_trade_summary.xml #generated:61
+-keepclassmembers class * { *** onPrintBtnClick(...); }
+
+# onClick res/layout/activity_input_pwd.xml #generated:16
+-keepclassmembers class * { *** onPwdBlockClick(...); }
+
+# onClick res/layout/activity_trade_detail.xml #generated:21
+-keepclassmembers class * { *** onReprintSlip(...); }
+
+# onClick res/layout/common_title_layout.xml #generated:23
+-keepclassmembers class * { *** onRightButtonClick(...); }
+
+# onClick res/layout/activity_query_trade.xml #generated:25
+-keepclassmembers class * { *** onSearchClick(...); }
+
+# onClick res/layout/activity_system_setting.xml #generated:276
+-keepclassmembers class * { *** systemModify(...); }
+

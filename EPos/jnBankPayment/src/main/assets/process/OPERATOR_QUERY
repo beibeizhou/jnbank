@@ -1,0 +1,8 @@
+<!--查询操作流程-->
+<!--节点ID为0，代表主界面-->
+<process transCode="">
+    <!--查询操作员-->
+    <component name="com.jiepos.jnbank.operatorquery" id="2">
+        <condition id="1">0</condition>
+    </component>
+</process>

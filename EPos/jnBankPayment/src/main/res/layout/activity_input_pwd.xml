@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <TextView
+        style="@style/BaseText.Tip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/tip_no_pwd"
+        android:textSize="@dimen/font_36"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_20"
+        android:clickable="true"
+        android:onClick="onPwdBlockClick"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/indicator1"
+            style="@style/PasswordIndicator"
+            android:layout_marginLeft="0dp"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator2"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator3"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator4"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator5"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator6"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_60"
+        android:background="@drawable/bg_popup"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_40"
+        android:paddingRight="@dimen/margin_40">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/result_info_item_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/BaseText.Tip"
+                android:text="@string/label_trans_type"/>
+
+            <TextView
+                android:id="@+id/trans_type_show"
+                style="@style/BaseText.Tip.Dark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trans_money_block"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/result_info_item_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/BaseText.Tip"
+                android:text="@string/label_trans_amt"/>
+            <TextView
+                style="@style/BaseText.Tip.Dark"
+                android:text="RMB "/>
+            <TextView
+                android:id="@+id/trans_money_show"
+                style="@style/BaseText.Tip.Dark"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/result_info_item_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/BaseText.Tip"
+                android:text="@string/label_trans_card"/>
+
+            <TextView
+                android:id="@+id/trans_card_show"
+                style="@style/BaseText.Tip.Dark"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        style="@style/BaseButton.Positive"
+        android:layout_marginLeft="@dimen/margin_40"
+        android:layout_marginRight="@dimen/margin_40"
+        android:layout_marginTop="@dimen/margin_100"
+        android:onClick="onConfirmClick"
+        android:visibility="gone"/>
+
+</LinearLayout>

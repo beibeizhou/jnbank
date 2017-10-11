@@ -1,0 +1,31 @@
+<!--节点ID为0，代表主界面-->
+<!--余额流程-->
+<process transCode="">
+    <!--检卡-->
+    <component name="com.jiepos.jnbank.checkcard" id="2">
+        <condition id="1">3</condition>
+        <condition id="99">5</condition>
+    </component>
+    <!--输入密码-->
+    <component name="com.jiepos.jnbank.inputpwd" id="3">
+        <condition id="1">4</condition>
+        <condition id="99">5</condition>
+    </component>
+    <!--联机加载-->
+    <component name="com.jiepos.jnbank.trading" id="4">
+        <condition id="1">5</condition>
+        <condition id="2">5</condition>
+        <condition id="99">5</condition>
+       <condition id="22">22</condition>
+    </component>
+    <!--交易结果-->
+    <component name="com.jiepos.jnbank.result" id="5">
+        <condition id="1">0</condition>
+       <condition id="22">22</condition>
+    </component>
+
+    <!--支付组件入口-->
+    <component name="com.jiepos.jnbank.entry" id="22">
+        <condition id="1">0</condition>
+    </component>
+</process>

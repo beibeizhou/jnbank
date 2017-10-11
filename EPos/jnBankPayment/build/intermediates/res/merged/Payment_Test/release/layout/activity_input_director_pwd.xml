@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/common_title_layout"/>
+
+    <TextView
+        android:id="@+id/tip_show"
+        style="@style/BaseText.Tip"
+        android:layout_below="@id/layout_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_50"
+        android:text="@string/tip_input_director_pwd"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tip_show"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_20"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/indicator1"
+            style="@style/PasswordIndicator"
+            android:layout_marginLeft="0dp"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator2"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator3"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator4"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator5"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <CheckBox
+            android:id="@+id/indicator6"
+            style="@style/PasswordIndicator"
+            android:clickable="false"
+            android:focusable="false"/>
+    </LinearLayout>
+
+
+    <com.centerm.jnbank.view.NumberPad
+        android:id="@+id/number_pad_show"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v_number_pad_height"
+        android:layout_alignParentBottom="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/number_pad_show"
+        android:layout_marginTop="@dimen/margin_120"
+        android:background="@color/common_divider" />
+
+</RelativeLayout>

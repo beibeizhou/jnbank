@@ -1,0 +1,581 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/main_c72e2e</item>
+        <item name="colorPrimaryDark">@color/main_c72e2e</item>
+        <item name="colorAccent">@color/main_c72e2e</item>
+        <item name="android:windowBackground">@color/common_main_bg</item>
+    </style>
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- 将splash图片设置在这，这样这张图片取代白屏 -->
+    <!--    <item name="android:windowBackground">@drawable/loading</item>-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="AppTheme.Trading" parent="AppTheme">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="MenuGrid">
+        <item name="numColumns">2</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="indicatorOn">@drawable/dot_on</item>
+        <item name="indicatorOff">@drawable/dot</item>
+        <item name="indicatorHeight">@dimen/margin_120</item>
+        <item name="indicatorPadding">@dimen/margin_30</item>
+        <item name="paddingTop">@dimen/margin_70</item>
+        <item name="paddingLeft">@dimen/margin_76</item>
+        <item name="paddingRight">@dimen/margin_76</item>
+        <item name="verticalDivider">@android:color/transparent</item>
+        <item name="horizontalDividerSize">@dimen/margin_60</item>
+        <item name="verticalDividerSize">@dimen/margin_90</item>
+        <item name="horizontalDivider">@android:color/transparent</item>
+        <item name="android:numColumns">2</item>
+    </style>
+
+
+    <style name="MenuList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">@color/common_divider</item>
+        <item name="android:dividerHeight">@dimen/common_divider_size</item>
+    </style>
+
+    <style name="MenuGridItemIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MenuListItemIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="MenuGridItemText" parent="BaseText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/font_black</item>
+    </style>
+    <style name="MenuGridItemText2" parent="BaseText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/main_333333</item>
+    </style>
+    <style name="MenuListItemText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--文本样式-->
+    <style name="BaseText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="android:textSize">@dimen/font_36</item>
+    </style>
+    <!--界面提示类文字样式-->
+    <style name="BaseText.Tip" parent="BaseText">
+        <item name="android:textColor">@color/font_tip</item>
+    </style>
+    <!--界面提示，颜色加重-->
+    <style name="BaseText.Tip.Dark" parent="BaseText.Tip">
+        <item name="android:textColor">@color/font_black</item>
+    </style>
+    <!--金额显示文字样式-->
+    <style name="BaseText.Money" parent="BaseText">
+        <item name="android:textColor">@color/font_black</item>
+        <item name="android:textSize">@dimen/font_60</item>
+    </style>
+
+    <!--按钮类样式-->
+    <style name="BaseButton" parent="BaseText">
+        <item name="android:textSize">@dimen/font_42</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--确认按钮样式-->
+    <style name="BaseButton.Positive" parent="BaseButton">
+        <item name="android:background">@drawable/bg_login_btn</item>
+        <item name="android:text">@string/label_confirm</item>
+    </style>
+    <!--取消按钮样式-->
+    <style name="BaseButton.Negative" parent="BaseButton">
+        <item name="android:background">@drawable/bg_login_btn</item>
+        <item name="android:text">@string/label_cancel</item>
+    </style>
+
+    <style name="BaseEditBox" parent="@style/BaseText.Money">
+        <item name="android:paddingLeft">@dimen/margin_20</item>
+        <item name="android:background">@drawable/textbox_input</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="BaseEditBox.Number" parent="BaseEditBox">
+        <item name="android:digits">0123456789</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textColorHint">@color/font_hint2</item>
+    </style>
+
+
+    <style name="PasswordIndicator">
+        <item name="android:layout_marginLeft">@dimen/margin_20</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:button">@drawable/sel_pwd_indicator</item>
+    </style>
+
+    <!-- 修改密码样式 -->
+    <style name="ChangePwdMSNItemStyle" parent="ChangePwdMSNLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">@dimen/font_36</item>
+    </style>
+
+    <style name="ChangePwdMSNItemStyle.EdtxtStyle" parent="ChangePwdMSNItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_100</item>
+        <item name="android:maxLength">6</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:cacheColorHint">#bfbfbf</item>
+        <item name="android:background">@drawable/textbox_input</item>
+        <item name="android:paddingLeft">@dimen/margin_20</item>
+        <item name="android:textSize">@dimen/font_60</item>
+    </style>
+
+    <style name="ChangePwdMSNLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_60</item>
+        <item name="android:layout_marginRight">@dimen/margin_60</item>
+    </style>
+
+    <style name="ChangePwdButtonStyle" parent="ChangePwdMSNItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/font_42</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:text">@string/label_sure_change_pwd</item>
+        <item name="android:background">@drawable/bg_login_btn</item>
+    </style>
+
+    <!-- 操作员管理样式 -->
+    <style name="OperatorMarginStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_20</item>
+        <item name="android:layout_marginRight">@dimen/margin_20</item>
+    </style>
+
+    <style name="OperatorMarginStyle.Lnrlyt" parent="OperatorMarginStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_80</item>
+        <item name="android:background">@drawable/form</item>
+        <item name="android:layout_marginTop">@dimen/margin_14</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="OperatorMarginStyle.EditText" parent="OperatorMarginStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:paddingLeft">@dimen/margin_40</item>
+        <item name="android:background">@null</item>
+        <item name="android:hint">@string/label_operator_please_input_opt_no</item>
+    </style>
+
+    <style name="OperatorMarginStyle.Button" parent="OperatorMarginStyle">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">@dimen/margin_20</item>
+        <item name="android:paddingRight">@dimen/margin_40</item>
+        <item name="android:textColor">@color/font_red</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:text">@string/label_serial_num_query</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="OperatorLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_60</item>
+        <item name="android:layout_marginRight">@dimen/margin_60</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/textbox_input</item>
+    </style>
+
+    <style name="OperatorItemTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">@dimen/font_36</item>
+        <item name="android:layout_marginLeft">@dimen/margin_60</item>
+        <item name="android:layout_marginRight">@dimen/margin_60</item>
+    </style>
+
+    <style name="OperatorItemTextStyle.EditText" parent="OperatorItemTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:lines">1</item>
+        <item name="android:text"></item>
+        <item name="android:textColor">#2b2525</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="OperatorButtonStyle" parent="OperatorLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:onClick">onSubmit</item>
+        <item name="android:text">@string/label_sure_operator</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/bg_login_btn</item>
+        <item name="android:textSize">@dimen/font_42</item>
+    </style>
+
+    <!-- 登录样式 -->
+    <style name="LoginLayoutStyle">
+        <item name="android:paddingRight">@dimen/margin_20</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/margin_60</item>
+        <item name="android:layout_marginRight">@dimen/margin_60</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/textbox_input</item>
+    </style>
+
+    <style name="LoginTopIconStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+     <!--   <item name="android:src">@drawable/bg_login</item>-->
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="LoginIconStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="LoginIconStyle.Account" parent="LoginIconStyle">
+        <item name="android:src">@drawable/icon_user</item>
+    </style>
+
+    <style name="LoginIconStyle.Pwd" parent="LoginIconStyle">
+        <item name="android:src">@drawable/icon_password</item>
+    </style>
+
+    <style name="LoginLayoutStyle.Account" parent="LoginLayoutStyle">
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="LoginItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">@dimen/font_36</item>
+        <item name="android:textColorHint">@color/font_hint2</item>
+    </style>
+
+    <style name="LoginItemStyle.Account" parent="LoginItemStyle">
+        <item name="android:hint">@string/label_login_please_input_account</item>
+        <item name="android:maxLength">2</item>
+    </style>
+
+    <style name="LoginLayoutStyle.Pwd" parent="LoginLayoutStyle">
+        <item name="android:layout_marginTop">@dimen/margin_40</item>
+    </style>
+
+    <style name="LoginItemStyle.Pwd" parent="LoginItemStyle">
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:hint">@string/label_login_please_input_pwd</item>
+    </style>
+
+    <style name="LoginLayoutStyle.Button" parent="LoginLayoutStyle">
+        <item name="android:borderlessButtonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:layout_marginTop">@dimen/margin_60</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_42</item>
+        <item name="android:background">@drawable/bg_login_btn</item>
+    </style>
+
+    <!-- dialog通用样式 -->
+    <style name="DialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="DialogLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="DialogLayout.Message" parent="DialogLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/bg_popup</item>
+    </style>
+
+    <style name="MessageDialogLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_60</item>
+        <item name="android:layout_marginRight">@dimen/margin_60</item>
+    </style>
+
+    <style name="MessageDialogTextStyle" parent="MessageDialogLayoutStyle">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_60</item>
+        <item name="android:layout_marginBottom">@dimen/margin_30</item>
+        <item name="android:minHeight">75dp</item>
+        <item name="android:textColor">#2b2525</item>
+    </style>
+
+    <style name="MessageDialogButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="MessageDialogLayoutStyle.Button" parent="MessageDialogLayoutStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/margin_40</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="MessageDialogButtonStyle.Sure" parent="MessageDialogButtonStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_popup_bg</item>
+        <item name="android:text">@string/label_message_label_sure</item>
+    </style>
+
+    <style name="MessageDialogButtonStyle.Cancel" parent="MessageDialogButtonStyle">
+        <item name="android:textColor">#666666</item>
+        <item name="android:background">@drawable/btn_popup_cancle_bg</item>
+        <item name="android:text">@string/label_message_label_cancel</item>
+    </style>
+
+    <style name="ConfigureItemLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_60</item>
+        <item name="android:layout_marginRight">@dimen/margin_60</item>
+    </style>
+
+    <style name="ConfigureItemTextStyle" parent="ConfigureItemLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/font_36</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="ConfigureItemTextStyle.Marquee" parent="ConfigureItemTextStyle">
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="ConfigureItemTextStyle.Edit" parent="ConfigureItemTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_100</item>
+        <item name="android:cacheColorHint">#bfbfbf</item>
+        <item name="android:background">@drawable/textbox_input</item>
+        <item name="android:inputType">number</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">#2b2525</item>
+        <item name="android:paddingLeft">@dimen/margin_20</item>
+    </style>
+
+    <style name="ConfigureItemLayoutStyle.Button" parent="ConfigureItemLayoutStyle">
+        <item name="android:layout_height">@dimen/height_100</item>
+        <item name="android:background">@drawable/bg_login_btn</item>
+        <item name="android:textSize">@dimen/font_42</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">@dimen/margin_60</item>
+        <item name="android:text">@string/label_configure_sure</item>
+        <item name="android:onClick">onSureClick</item>
+    </style>
+
+    <style name="SerialNumLayoutStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/textbox_input</item>
+        <item name="android:layout_marginTop">@dimen/margin_14</item>
+        <item name="android:layout_marginLeft">@dimen/margin_20</item>
+        <item name="android:layout_marginRight">@dimen/margin_20</item>
+    </style>
+
+    <style name="SerialNumEditStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/font_36</item>
+        <item name="android:cacheColorHint">#bfbfbf</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:hint">@string/label_serial_num_please_input_serial_num</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@color/font_hint</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">6</item>
+        <item name="android:paddingLeft">@dimen/margin_40</item>
+    </style>
+
+    <style name="SerialNumButtonStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">@dimen/margin_20</item>
+        <item name="android:paddingRight">@dimen/margin_40</item>
+        <item name="android:textSize">@dimen/font_36</item>
+        <item name="android:text">@string/label_serial_num_query</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/font_red</item>
+    </style>
+
+    <style name="SerialNumHeadStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SerialNumListStyle" parent="SerialNumHeadStyle">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SerialNumItemStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/font_36</item>
+    </style>
+
+    <style name="SerialNumItemStyle.Left" parent="SerialNumItemStyle">
+        <item name="android:gravity">left</item>
+        <!--    <item name="android:layout_marginLeft">@dimen/margin_40</item>-->
+    </style>
+
+    <style name="SerialNumItemStyle.Right" parent="SerialNumItemStyle">
+        <item name="android:gravity">right</item>
+        <!--
+                <item name="android:maxWidth">40dp</item>
+        -->
+    </style>
+
+    <style name="FormListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_20</item>
+        <item name="cardBackgroundColor">@color/common_divider</item>
+        <item name="cardCornerRadius">@dimen/cornet_8</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="contentPadding">@dimen/common_divider_size</item>
+    </style>
+
+    <style name="FormInnerListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="cardBackgroundColor">@color/font_white</item>
+        <item name="cardCornerRadius">@dimen/cornet_8</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="FormListStyle.Large" parent="FormListStyle">
+        <item name="cardCornerRadius">@dimen/cornet_16</item>
+    </style>
+
+    <style name="FormInnerListStyle.Large" parent="FormInnerListStyle">
+        <item name="cardCornerRadius">@dimen/cornet_16</item>
+    </style>
+
+    <style name="LoadStyle">
+        <item name="android:textColor">@color/font_tip</item>
+        <item name="android:textSize">@dimen/font_30</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="NumberProgressBar_Default">
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#d61300</item>
+        <item name="progress_reached_color">#ffffff</item>
+        <item name="progress_text_size">28sp</item>
+        <item name="progress_text_color">#ffffff</item>
+        <item name="progress_reached_bar_height">2dp</item>
+        <item name="progress_unreached_bar_height">2dp</item>
+    </style>
+
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_circle</item>
+        <item name="android:minWidth">25dp</item>
+        <item name="android:minHeight">25dp</item>
+        <item name="android:maxWidth">60dp</item>
+        <item name="android:maxHeight">60dp</item>
+    </style>
+    <style name="home_icon">
+        <item name="android:textColor">#fff</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:textSize">@dimen/main_icon_size1</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--login -->
+    <style name="login_et">
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:maxLength">2</item>
+        <item name="android:textSize">@dimen/main_icon_size2</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="login_line">
+        <item name="android:background">#dddddd</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+</resources>

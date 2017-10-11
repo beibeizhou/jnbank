@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title_block"
+        layout="@layout/common_title_layout" />
+
+    <ImageView
+
+        android:id="@+id/title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_201"
+        android:background="@drawable/login_bg" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bg"
+        android:layout_marginTop="@dimen/margin_50"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/account_edit"
+            style="@style/login_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/icon_user"
+            android:hint="@string/label_login_please_input_account" />
+
+        <View style="@style/login_line" />
+
+
+        <EditText
+            android:id="@+id/pwd_edit"
+            style="@style/login_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/icon_password"
+            android:hint="@string/label_login_please_input_pwd" />
+
+        <View style="@style/login_line" />
+
+    </LinearLayout>
+
+
+    <Button
+        style="@style/LoginLayoutStyle.Button"
+        android:layout_below="@id/layout"
+        android:layout_marginTop="@dimen/margin_80"
+        android:onClick="onLoginClick"
+        android:text="@string/label_login1" />
+
+</RelativeLayout>
